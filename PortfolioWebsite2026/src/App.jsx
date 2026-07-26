@@ -1,5 +1,6 @@
 import './Styles/App.css'
 import {Link, Routes, Route} from "react-router";
+import ExperiencePage from "./Components/ExperiencePage.jsx";
 
 function App() {
   const aboutLink = "/about";
@@ -19,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/about" element={<div><p>About</p></div>} />
-        <Route path="/work" element={<div><p>Work</p></div>} />
+        <Route path="/work" element={<ExperiencePage />} />
         <Route path="/volunteering" element={<div><p>Volunteering</p></div>} />
         <Route path="/contact" element={<div><p>Contact</p></div>} />
         <Route path="*" element={<div><p>404 Not Found</p></div>} />
