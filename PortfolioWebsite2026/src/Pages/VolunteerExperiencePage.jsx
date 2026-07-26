@@ -1,5 +1,5 @@
-import ExperienceComponent from "../ExperienceComponent.jsx";
-import getVolunteerExperience from "../../Data/VolunteerExperience.js";
+import ExperienceComponent from "../Components/ExperienceComponent.jsx";
+import getVolunteerExperience from "../Data/VolunteerExperience.js";
 
 export default function VolunteerExperiencePage() {
     const volunteerExperience = getVolunteerExperience();

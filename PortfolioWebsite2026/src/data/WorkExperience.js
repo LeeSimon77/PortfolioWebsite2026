@@ -9,6 +9,7 @@ endDate: ,
 techTags:[],
 otherTags: [],
 relevantLinks: [],
+assets: [],
 experienceSentences: [],
 */
 const workExperience = [

@@ -1,5 +1,5 @@
-import getProjects from "../../Data/Projects.js";
-import ExperienceComponent from "../ExperienceComponent.jsx";
+import getProjects from "../Data/Projects.js";
+import ExperienceComponent from "../Components/ExperienceComponent.jsx";
 
 export default function WorkExperiencePage() {
     const projects = getProjects();

@@ -1,5 +1,5 @@
-import ExperienceComponent from "../ExperienceComponent.jsx";
-import getWorkExperience from "../../Data/WorkExperience.js";
+import ExperienceComponent from "../Components/ExperienceComponent.jsx";
+import getWorkExperience from "../Data/WorkExperience.js";
 
 export default function WorkExperiencePage() {
     const workExperience = getWorkExperience();
