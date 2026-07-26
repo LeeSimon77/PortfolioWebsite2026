@@ -1,12 +1,12 @@
-import ExperienceComponent from "./ExperienceComponent.jsx";
-import getWorkExperience from "../Data/WorkExperience.js";
+import ExperienceComponent from "../ExperienceComponent.jsx";
+import getWorkExperience from "../../Data/WorkExperience.js";
 
-export default function ExperiencePage() {
+export default function WorkExperiencePage() {
     const workExperience = getWorkExperience();
 
   return (
     <div>
-        <h1>Experience</h1>
+        <h1>Work Experience</h1>
         {workExperience.map((experience) => (
             <ExperienceComponent key={experience.id} {...experience} />
         ))}

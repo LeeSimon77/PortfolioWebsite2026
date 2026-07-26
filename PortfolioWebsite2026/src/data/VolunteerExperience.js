@@ -11,11 +11,11 @@ otherTags: [],
 relevantLinks: [],
 experienceSentences: [],
 */
-const workExperience = [
+const volunteerExperience = [
     {
         id: 0,
-        role: "Generalist Programmer",
-        organization: "Ubisoft Winnipeg",
+        role: "President",
+        organization: "University of Manitoba Computer Science Association",
         summary: "Responsible for developing and maintaining software applications.",
         Team: "Rainbow Six Mobile Tools Team",
         startdate: "2020-01-01",
@@ -26,8 +26,8 @@ const workExperience = [
     },
     {
         id: 1,
-        role: "Generalist Programmer",
-        organization: "Ubisoft Winnipeg",
+        role: "President",
+        organization: "University of Manitoba Women in Computer Science Board",
         summary: "Responsible for developing and maintaining software applications.",
         Team: "Rainbow Six Mobile HUD Team",
         startdate: "2020-01-01",
@@ -38,6 +38,6 @@ const workExperience = [
     }
 ]
 
-export default function getWorkExperience() {
-    return workExperience;
+export default function getVolunteerExperience() {
+    return volunteerExperience;
 }
