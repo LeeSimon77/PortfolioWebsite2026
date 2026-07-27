@@ -1,13 +1,20 @@
-import getProjects from "../Data/Projects.js";
+import {getFilteredExperiences} from "../Helpers/FilterHelpers.jsx";
 import ExperienceComponent from "../Components/ExperienceComponent.jsx";
+import { useState } from "react";
 
-export default function WorkExperiencePage() {
-    const projects = getProjects();
+export default function ProjectsPage() {
+
+    const [activeFilters, setActiveFilters] = useState(["Projects"]);
+
+    const experiences = getFilteredExperiences(activeFilters);
 
   return (
-    <div>
+    <div className="page">
+      <button onClick={() => setActiveFilters(["Projects","Perforce"])}>Test1</button>
+      <button onClick={() => setActiveFilters(["Projects"])}>Test2</button>
+
         <h1>Projects</h1>
-        {projects.map((experience) => (
+        {experiences.map((experience) => (
             <ExperienceComponent key={experience.id} {...experience} />
         ))}
     </div>
