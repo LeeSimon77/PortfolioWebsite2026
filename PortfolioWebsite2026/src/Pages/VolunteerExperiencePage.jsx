@@ -1,18 +1,14 @@
-import ExperienceComponent from "../Components/ExperienceComponent.jsx";
-import {getFilteredExperiences} from "../Helpers/FilterHelpers.jsx";
-import { useState } from "react";
+import ExperienceList from "../Components/ExperienceList.jsx";
 
-export default function VolunteerExperiencePage() {
-    const [activeFilters, setActiveFilters] = useState(["Volunteering"]);
 
-    const experiences = getFilteredExperiences(activeFilters);
+export default function ProjectsPage() {
 
   return (
     <div className="page">
+        
         <h1>Volunteer Experience</h1>
-        {experiences.map((experience) => (
-            <ExperienceComponent key={experience.id} {...experience} />
-        ))}
+        <ExperienceList defaultFilter="Volunteering" />
+
     </div>
   );
 }
