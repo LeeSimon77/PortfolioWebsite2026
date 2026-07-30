@@ -4,14 +4,20 @@ import { useState } from "react";
 import FilterButton from "./FilterButton.jsx";
 
 
-export default function ExperienceList({defaultFilter}) {
+export default function ExperienceList({defaultFilter, filterList}) {
     const [activeFilters, setActiveFilters] = useState([defaultFilter]);
 
     const experiences = getFilteredExperiences(activeFilters);
 
-    const filterButtons = [
-      <FilterButton filter="test" displayName="Test" activeFilters={activeFilters} setActiveFilters={setActiveFilters}/>,
-      <FilterButton filter="test2" displayName="Test2" activeFilters={activeFilters} setActiveFilters={setActiveFilters}/>]
+    const filterButtons = filterList.map((filterItem) => (
+      <FilterButton
+        key={filterItem.filter}
+        filter={filterItem.filter}
+        displayName={filterItem.displayName}
+        activeFilters={activeFilters}
+        setActiveFilters={setActiveFilters}
+      />
+    ));
 
   return (
     <div className="experienceList">

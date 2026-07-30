@@ -7,7 +7,11 @@ export default function ProjectsPage() {
     <div className="page">
         
         <h1>Work Experience</h1>
-        <ExperienceList defaultFilter="Work" />
+        <ExperienceList defaultFilter="Work" filterList = {[
+          { filter: "Test1", displayName: "Test1" },
+          { filter: "Software Engineering", displayName: "Software Engineering" },
+          { filter: "Project Management", displayName: "Project Management" }
+        ]}/>
 
     </div>
   );
