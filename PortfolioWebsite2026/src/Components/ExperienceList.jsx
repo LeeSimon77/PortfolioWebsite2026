@@ -15,6 +15,7 @@ export default function ExperienceList({defaultFilter}) {
 
   return (
     <div className="experienceList">
+      <button onClick={() => setActiveFilters([defaultFilter])}>Clear Filters</button>
         {filterButtons.map((button, index) => (
           <div key={index}>{button}</div>
         ))}
