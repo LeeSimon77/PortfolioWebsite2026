@@ -6,25 +6,34 @@ summary: ,
 Team: ,
 startdate: ,
 endDate: ,
-techTags:[],
-otherTags: [],
+tags:[],
 relevantLinks: [],
-experienceSentences: [],
+assets: [],
+details: [],
 */
-export default function experienceComponent({id, role, organization, summary, Team, startdate, endDate, tags, relevantLinks, details}) {
+export default function experienceComponent({id, role, organization, summary, Team, startdate, endDate, tags, relevantLinks, assets, details}) {
     return (
         <div>
-            <h1>{role}</h1>
-            <h2>{organization}</h2>
-            <h3>{Team}</h3>
-            <p>{summary}</p>
-            <p>{startdate} - {endDate}</p>
-            <ul>
+            <div style={{display: "flex", alignItems: "center"}}>
+                <div style={{width: "50%", textAlign: "right", margin:"20px" }}>
+                    <h1>{role}</h1>
+                    <h2>{organization}</h2>
+                    <h3>{Team}</h3>
+                    <p>{summary}</p>
+                    <p>{startdate} - {endDate}</p>
+                </div>
+                <div style={{width: "50%", textAlign:"left", margin:"10px"}}>
+                    <img src={assets} style={{maxHeight:"290px",maxWidth: "100%"}}/>
+                </div>
+            </div>
+            <div>
+                <span>|</span>
                 {tags.map((tag, index) => (
-                    <li key={index}>{tag}</li>
+                    <span key={index}>| {tag} |</span>
                 ))}
-            </ul>
-            <ul>
+                <span>|</span>
+            </div>
+            <ul style={{listStylePosition: "inside"}}>
                 {details.map((sentence, index) => (
                     <li key={index}>{sentence}</li>
                 ))}

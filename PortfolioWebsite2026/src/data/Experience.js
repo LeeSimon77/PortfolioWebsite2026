@@ -22,6 +22,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
+        relevantLinks: [],
+        assets: "/public/BeeRB.png",
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -33,11 +35,13 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
+        relevantLinks: [],
+        assets: "public/favicon.svg",
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 
     /*Volunteer Experience*/
-     {
+    {
         id: 100,
         role: "President",
         organization: "University of Manitoba Computer Science Association",
@@ -46,6 +50,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Volunteering", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -57,6 +63,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Volunteering", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 
@@ -70,6 +78,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -81,6 +91,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -91,7 +103,9 @@ const Experience = [
         Team: "Rainbow Six Mobile Tools Team",
         startdate: "2020-01-01",
         endDate: "2023-12-31",
-        tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce","test"],
+        tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -103,6 +117,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test", "test2"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -114,6 +130,8 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test2"],
+        relevantLinks: [],
+        assets: null,
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 ]
