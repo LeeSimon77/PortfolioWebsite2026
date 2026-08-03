@@ -23,7 +23,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: "/public/BeeRB.png",
+        assets: ["/public/BeeRB.png", "public/favicon.svg"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -36,7 +36,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: "public/favicon.svg",
+        assets: ["public/favicon.svg","/public/BeeRB.png", "public/favicon.svg","/public/BeeRB.png"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 
@@ -51,7 +51,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Volunteering", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -64,7 +64,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Volunteering", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 
@@ -79,7 +79,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -92,7 +92,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -105,7 +105,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -118,7 +118,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test", "test2"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -131,7 +131,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Projects", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test2"],
         relevantLinks: [],
-        assets: null,
+        assets: [],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 ]

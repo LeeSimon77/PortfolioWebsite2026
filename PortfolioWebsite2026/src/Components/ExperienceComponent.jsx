@@ -11,6 +11,8 @@ relevantLinks: [],
 assets: [],
 details: [],
 */
+import Slideshow from "./SlideshowComponent";
+
 export default function experienceComponent({id, role, organization, summary, Team, startdate, endDate, tags, relevantLinks, assets, details}) {
     return (
         <div>
@@ -23,7 +25,7 @@ export default function experienceComponent({id, role, organization, summary, Te
                     <p>{startdate} - {endDate}</p>
                 </div>
                 <div style={{width: "50%", textAlign:"left", margin:"10px"}}>
-                    <img src={assets} style={{maxHeight:"290px",maxWidth: "100%"}}/>
+                    <Slideshow images={assets}/>
                 </div>
             </div>
             <div>
