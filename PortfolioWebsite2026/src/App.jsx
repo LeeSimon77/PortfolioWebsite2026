@@ -1,4 +1,3 @@
-import './Styles/App.css'
 import {Routes, Route} from "react-router";
 import WorkExperiencePage from "./Pages/WorkExperiencePage.jsx";
 import VolunteerExperiencePage from "./Pages/VolunteerExperiencePage.jsx";
