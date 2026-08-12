@@ -17,14 +17,14 @@ export default function experienceComponent({id, role, organization, summary, Te
     return (
         <div>
             <div style={{display: "flex", alignItems: "center", width: "100%"}}>
-                <div style={{textAlign: "right", margin:"20px" }}>
+                <div style={{textAlign: "right", margin:"20px", width: "60%"}}>
                     <h1>{role}</h1>
                     <h2>{organization}</h2>
                     <h3>{Team}</h3>
                     <p>{summary}</p>
                     <p>{startdate} - {endDate}</p>
                 </div>
-                <div style={{width: "50%", overflow: "hidden", marginTop: "40px", marginRight: "20px"}}>
+                <div style={{width: "40%", overflow: "hidden", marginTop: "40px", marginRight: "20px"}}>
                     <Slideshow images={assets}/>
                 </div>
             </div>
