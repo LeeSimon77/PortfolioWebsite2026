@@ -1,6 +1,10 @@
-import { useState } from "react";
-export default function FilterButton({ filter, displayName, activeFilters, setActiveFilters }) {
+import "../Styles/FilterButton.css";
+import { useState, useEffect } from "react";
+export default function FilterButton({ filter, displayName, activeFilters, setActiveFilters, resetTrigger}) {
     const [isActive, setIsActive] = useState(false);
+    useEffect(() => {
+            setIsActive(false);
+    }, [resetTrigger]);
 
 function filterButtonOnClick() {
     if(!isActive){
@@ -13,7 +17,7 @@ function filterButtonOnClick() {
     }
 }
     return (
-        <button className={`filter-button ${isActive ? "active" : ""}`} onClick={filterButtonOnClick}>
+        <button className={`filter-button${isActive ? "-active" : ""}`} onClick={filterButtonOnClick}>
             {displayName}
         </button>
     )
