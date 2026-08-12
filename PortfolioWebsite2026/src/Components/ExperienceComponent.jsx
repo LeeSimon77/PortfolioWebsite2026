@@ -1,16 +1,3 @@
-/*
-id: ,
-role: ,
-organization: ,
-summary: ,
-Team: ,
-startdate: ,
-endDate: ,
-tags:[],
-relevantLinks: [],
-assets: [],
-details: [],
-*/
 import Slideshow from "./SlideshowComponent";
 
 export default function experienceComponent({ id, role, organization, summary, Team, startdate, endDate, tags, relevantLinks, assets, details }) {
