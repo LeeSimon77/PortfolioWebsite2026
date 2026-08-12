@@ -11,6 +11,13 @@ relevantLinks: [],
 assets: [],
 details: [],
 */
+
+/*Relevant links structure
+{display: "",
+address: ""
+}
+*/
+
 const Experience = [
     /*Work Experience*/
     {
@@ -22,7 +29,7 @@ const Experience = [
         startdate: "2020-01-01",
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
-        relevantLinks: [],
+        relevantLinks: [{display: "test", address: "https://www.google.com"}, {display: "test2", address: "https://www.youtube.com"}],
         assets: ["/BeeRB.png", "/favicon.svg"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
