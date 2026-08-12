@@ -23,9 +23,11 @@ export default function Slideshow({images}) {
 
     return(
         <div className="slideshow">
-            <img src={images[index]} alt={`Slide ${index}`} style={{maxHeight:"290px", height:"100%", maxWidth: "100%"}}/>
-            <button onClick={prevSlide}>Previous</button>
-            <button onClick={nextSlide}>Next</button>
+            <img src={images[index]} alt={`Slide ${index}`} style={{height:"250px", maxWidth: "100%", objectFit: "contain"}}/>
+            <div style={{width: "100%"}}>
+                <button onClick={prevSlide} style={{float: "left"}}>Previous</button>
+                <button onClick={nextSlide} style={{float: "right"}}>Next</button>
+            </div>
         </div>
     );
 }

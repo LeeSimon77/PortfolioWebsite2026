@@ -16,15 +16,15 @@ import Slideshow from "./SlideshowComponent";
 export default function experienceComponent({id, role, organization, summary, Team, startdate, endDate, tags, relevantLinks, assets, details}) {
     return (
         <div>
-            <div style={{display: "flex", alignItems: "center"}}>
-                <div style={{width: "50%", textAlign: "right", margin:"20px" }}>
+            <div style={{display: "flex", alignItems: "center", width: "100%"}}>
+                <div style={{textAlign: "right", margin:"20px" }}>
                     <h1>{role}</h1>
                     <h2>{organization}</h2>
                     <h3>{Team}</h3>
                     <p>{summary}</p>
                     <p>{startdate} - {endDate}</p>
                 </div>
-                <div style={{width: "50%", textAlign:"left", margin:"10px"}}>
+                <div style={{width: "50%", overflow: "hidden", marginTop: "40px", marginRight: "20px"}}>
                     <Slideshow images={assets}/>
                 </div>
             </div>

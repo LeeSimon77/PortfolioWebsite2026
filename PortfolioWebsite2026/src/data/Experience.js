@@ -23,7 +23,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: ["/public/BeeRB.png", "public/favicon.svg"],
+        assets: ["/BeeRB.png", "/favicon.svg"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -36,7 +36,7 @@ const Experience = [
         endDate: "2023-12-31",
         tags: ["Work", "Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce"],
         relevantLinks: [],
-        assets: ["public/favicon.svg","/public/BeeRB.png", "public/favicon.svg","/public/BeeRB.png"],
+        assets: ["/favicon.svg","/BeeRB.png", "/favicon.svg","/BeeRB.png"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 
