@@ -14,3 +14,22 @@ export function getFilteredExperiences(filters) {
     
     return filteredExperiences;
 }
+
+export function getFilters(experiences, defaultFilter)
+{
+    let filters = [];
+
+    experiences.forEach((experience) => {
+        experience.tags.forEach((tag) => {
+            if(!filters.includes(tag)) {
+                filters.push(tag);
+            }
+        });
+    });
+
+    if(filters.includes(defaultFilter)) {
+        filters = filters.filter((filter) => filter !== defaultFilter);
+    }
+
+    return filters;
+}
