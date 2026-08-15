@@ -1,7 +1,9 @@
 import Slideshow from "./SlideshowComponent";
 import "../Styles/ExperienceComponent.css";
+import { useState, useEffect } from "react";
 
 export default function experienceComponent({ id, role, organization, summary, team, startdate, endDate, generalTags, techTags, toolTags, skillTags, relevantLinks, assets, details }) {
+    const [expanded, setExpanded] = useState(false);
     return (
         <div className="experienceComponent">
             <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
@@ -10,17 +12,15 @@ export default function experienceComponent({ id, role, organization, summary, t
                     <h2>{organization}</h2>
                     {team !== undefined && <h3>{Team}</h3>}
                     <p>{summary}</p>
-                    <p>{startdate} - {endDate}</p>
+                    {!(endDate === "")? 
+                    <p>{startdate} - {endDate}</p> : 
+                    <p>{startdate}</p>}
                 </div>
                 <div style={{ width: "40%", overflow: "hidden", marginTop: "40px", marginRight: "20px" }}>
                     <Slideshow images={assets} />
                 </div>
             </div>
-            <ul style={{ listStylePosition: "inside" }}>
-                {details.map((sentence, index) => (
-                    <li key={index}>{sentence}</li>
-                ))}
-            </ul>
+            
             {relevantLinks.length > 0 && (
                 <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
                     <h4>Links: </h4>
@@ -31,6 +31,15 @@ export default function experienceComponent({ id, role, organization, summary, t
                     ))}
                 </div>
             )}
+
+            {expanded &&
+            <ul style={{ listStylePosition: "inside" }}>
+                { details.map((sentence, index) => (
+                    <li key={index}>{sentence}</li>
+                ))}
+            </ul>
+            }
+            <button onClick={()=> setExpanded(!expanded)}>{expanded? "Minimize Details" : "Expand details" }</button>
 
             {generalTags.length > 0 &&
                 <div className="tagList">
