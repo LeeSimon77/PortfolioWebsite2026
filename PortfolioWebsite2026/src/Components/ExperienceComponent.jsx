@@ -6,8 +6,8 @@ export default function experienceComponent({ id, role, organization, summary, t
     const [expanded, setExpanded] = useState(false);
     return (
         <div className="experienceComponent">
-            <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <div style={{ textAlign: "right", margin: "20px", width: "60%" }}>
+            <div style={{ display: "flex", alignItems: "center"}}>
+                <div style={{ textAlign: "right", padding: "20px", width: "60%" }}>
                     <h1>{role}</h1>
                     <h2>{organization}</h2>
                     {team !== undefined && <h3>{Team}</h3>}
