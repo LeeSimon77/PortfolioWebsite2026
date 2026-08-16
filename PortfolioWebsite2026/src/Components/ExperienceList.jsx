@@ -1,6 +1,6 @@
 import { getFilteredExperiences, getGeneralFilters, getTechFilters, getToolFilters, getSkillFilters } from "../Helpers/FilterHelpers.jsx";
 import ExperienceComponent from "./ExperienceComponent.jsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import FilterButton from "./FilterButton.jsx";
 import "../Styles/ExperienceList.css"
 
@@ -15,10 +15,17 @@ export default function ExperienceList({ defaultFilter }) {
   const toolFilters = getToolFilters(experiences);
   const skillFilters = getSkillFilters(experiences);
 
-  const genFilterButtons = buildFilterButtons(generalFilters);
-  const techFilterButtons = buildFilterButtons(techFilters);
-  const toolFilterButtons = buildFilterButtons(toolFilters);
-  const skillFilterButtons = buildFilterButtons(skillFilters);
+  const[genFilterButtons, setGenFilterButtons] = useState([]);
+  const[techFilterButtons, setTechFilterButtons] = useState([]);
+  const[toolFilterButtons, setToolFilterButtons] = useState([]);
+  const[skillFilterButtons, setSkillFilterButtons] = useState([]);
+
+  useEffect(() => {
+    setGenFilterButtons(buildFilterButtons(generalFilters));
+    setTechFilterButtons(buildFilterButtons(techFilters));
+    setToolFilterButtons(buildFilterButtons(toolFilters));
+    setSkillFilterButtons(buildFilterButtons(skillFilters));
+  }, []);
 
   function clearFilters() {
     setActiveFilters([defaultFilter]);

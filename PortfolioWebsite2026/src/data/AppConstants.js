@@ -1,6 +1,5 @@
    const AppConstants = 
     {
-      aboutLink : "/about",
       workLink : "/work",
       volunteeringLink : "/volunteering",
       contactLink : "/contact",

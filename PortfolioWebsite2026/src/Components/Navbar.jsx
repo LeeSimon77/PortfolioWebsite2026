@@ -8,7 +8,6 @@ export default function Navbar() {
         <nav className="navbar">
       <nav>
         <Link to="/">Home </Link>
-        <Link to={appConstants.aboutLink}>About </Link>
         <Link to={appConstants.workLink}>Work </Link>
         <Link to={appConstants.volunteeringLink}>Volunteering </Link>
         <Link to={appConstants.projectsLink}>Projects </Link>

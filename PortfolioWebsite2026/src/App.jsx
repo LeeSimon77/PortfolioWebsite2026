@@ -4,6 +4,7 @@ import VolunteerExperiencePage from "./Pages/VolunteerExperiencePage.jsx";
 import ProjectsPage from "./Pages/ProjectsPage.jsx";
 import getAppConstants from "./Data/AppConstants.js";
 import Navbar from "./Components/Navbar.jsx";
+import HomePage from "./Pages/HomePage.jsx";
 
 function App() {
   const appConstants = getAppConstants();
@@ -13,7 +14,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path={appConstants.aboutLink} element={<div><p>About</p></div>} />
         <Route path={appConstants.workLink} element={<WorkExperiencePage />} />
         <Route path={appConstants.volunteeringLink}element={<VolunteerExperiencePage />} />
         <Route path={appConstants.projectsLink} element={<ProjectsPage />} />
@@ -23,14 +23,4 @@ function App() {
     </div>
   )
 }
-
-function HomePage() {
-  return (
-    <div>
-      <h1>Welcome to my portfolio website!</h1>
-      <p>This is the home page.</p>
-    </div>
-  )
-}
-
 export default App
