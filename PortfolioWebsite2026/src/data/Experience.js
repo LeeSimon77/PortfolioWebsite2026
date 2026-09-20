@@ -36,7 +36,7 @@ const Experience = [
         toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development"],
         skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6/Tools/MainScreen.gif", "/R6/Both/R6SplashPage.jpg", "/R6/Tools/Dokk.gif", "/R6/Tools/Legs.gif", "/R6/Tools/WeaponSpin.gif", "/R6/Tools/SideRails.gif","/R6/Tools/BattlePass.gif", "/R6/Tools/banner.png", "/R6/Tools/banner2.png", "/R6/Tools/Packs.gif", "/R6/Tools/Packtour.gif", "/R6/Tools/PackMag.gif", "/R6/Tools/Packitems.gif", "/R6/Both/Credits.jpg"],
+        assets: ["/R6/Tools/MainScreen.gif", "/R6/Both/R6SplashPage.jpg", "/R6/Tools/Dokk.gif", "/R6/Tools/Legs.gif", "/R6/Tools/WeaponSpin.gif", "/R6/Tools/SideRails.gif","/R6/Tools/BattlePass.gif", "/R6/Tools/banner.png", "/R6/Tools/banner2.png", "/R6/Tools/Packs.gif", "/R6/Tools/Packtour.gif", "/R6/Tools/PackMag.gif", "/R6/Tools/Packitems.gif"],
         details: [
             "Led design and development of a WPF tool allowing artists across 3 teams to compress and manage 2D assets.",
             "Collaborated closely with UI/UX designers to develop intuitive interfaces for custom tools in 3 different frameworks and used by 5 different teams.",
@@ -75,7 +75,7 @@ const Experience = [
         toolTags: ["Perforce","Jira", "Confluence"],
         skillTags: ["Test Design", "Technical Design", "Manual Testing", "Automated Testing", "UI Optimization", "Performance Profiling", "Leadership", "Public Speaking"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6/Both/R6SplashPage.jpg","/R6/Both/Credits.jpg"],
+        assets: ["/R6/HUD/Scanning.gif","/R6/Both/R6SplashPage.jpg","/R6/HUD/JumpProgress.gif", "/R6/HUD/DefuserMessages.gif","/R6/HUD/HUDCusto.png","/R6/HUD/Rappel.gif","/R6/HUD/Layouts.jpg", "/R6/HUD/EE1D.gif"],
         details: [
             "Redesigned controller support systems to allow for a variety of customization options for players and designers.",
             "Implemented in-game message features that allowed players to use operator abilities with multi-stage progress messages, with different messages for the player, their team, and the enemy team.",
@@ -105,7 +105,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Mentorship", "Activity Planning"],
         relevantLinks: [{display: "Explore Program", address: "https://englishfrench.ca/explore/"}],
-        assets: [],
+        assets: ["/Explore2022/Group.jpg", "/Explore2022/Me.jpg", "/Explore2022/Meme.jpg", "/Explore2022/Alouette.jpg", "/Explore2022/TR.jpg"],
         details: [
             "Planned and implemented daily student activities, both individually, and in collaboration with other Animateurs.",
             "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events",
@@ -119,7 +119,7 @@ const Experience = [
         role: "Technology and Website Consultant",
         organization: "Community Living Interlake",
         summary: "Upgrading and maintaining a WordPress website and as well as advising on and assisting with the technical aspects of social media and general advertising campaigns.",
-        Team: "COMP 1010 - Introduction to Computer Science 1",
+        Team: "",
         startdate: "2021-09",
         endDate: "2021-12",
         generalTags: ["Work", "Web Development", "Marketing"],
@@ -127,7 +127,7 @@ const Experience = [
         toolTags: ["Vistaprint"],
         skillTags: ["Technical Research", "Communication", "Documentation", "UI Design"],
         relevantLinks: [{display: "CLI Site", address: "https://communitylivinginterlake.ca/"}],
-        assets: [],
+        assets: ["/CLI/WebsiteScroll.gif", "/CLI/after.jpg", "/CLI/working.jpg", "/CLI/working.webp"],
         details: [
             "Built a new WordPress website to make it easier for non-technical staff to add and edit content. The site is still being used as of 2026",
             "Advised on advertising platforms, and supported the setup of social media accounts.",
@@ -148,7 +148,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Feedback", "Grading"],
         relevantLinks: [{display: "COMP 1010 Syllabus (No longer includes Processing)", address: "https://umanitoba.ca/science/sites/science/files/2025-10/comp-1000.pdf"}],
-        assets: [],
+        assets: ["/UofM.jpg"],
         details: [
             "Assisted students with introductory Processing assignments, adapting explanations to the coding experience of each student.",
             "Tested assignments before class to provide feedback to the professor and to get familiar with the content.",
@@ -168,7 +168,7 @@ const Experience = [
         toolTags: ["Perforce"],
         skillTags: ["Test Design"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6SplashPage.jpg", "/GoogleImages1.jpg", "/GoogleImages2.png", "GoogleImages3.png"],
+        assets: ["/R6/HUD/ADS.gif","/R6/HUD/ADS2.gif","/R6/HUD/ADS3.gif","/R6/HUD/ADS4.gif","/R6/Both/R6SplashPage.jpg"],
         details: [
             "Upgraded complex Unity systems to allow more adaptability and data storage while considering dependencies and project stability.",
             "Worked closely with quality control to ensure submitted code was high quality and any bugs were fixed before they affected other developers or clients.",
@@ -187,8 +187,8 @@ const Experience = [
         techTags: ["React", "Typescript", "JavaScript", "Redux"],
         toolTags: ["Windows"],
         skillTags: ["Unit Tests"],
-        relevantLinks: [{display: "GrainVue Product Tour", address: "https://youtu.be/3IAyAunpm1U?si=pyS0iJo1w-Z5ARnU"}, {display: "GrainVue", address: "https://www.grainsystems.com/na/en/campaigns/grainvue/"}, {display: "AGCO", address: "https://www.agcocorp.com/us/en/home.html"}],
-        assets: ["/GrainVuePlaceholder"],
+        relevantLinks: [{display: "Screenshot Source: GrainVue Product Tour", address: "https://youtu.be/3IAyAunpm1U?si=pyS0iJo1w-Z5ARnU"}, {display: "GrainVue", address: "https://www.grainsystems.com/na/en/campaigns/grainvue/"}, {display: "AGCO", address: "https://www.agcocorp.com/us/en/home.html"}],
+        assets: ["/GrainVue/Logo.jpg", "/GrainVue/HomeScreen.jpg","/GrainVue/Alerts.jpg", "/GrainVue/Dashboard.jpg"],
         details: [
             "Developed a new method of deciding what scans to upload from imbedded BeagleBone boards to give users up-to date data and give developers more freedom in adapting scanning tasks.",
             "Redesigned and organized redux systems to make them easier to maintain and upgrade. ",
@@ -199,7 +199,7 @@ const Experience = [
         id: 94,
         role: "Co-Operative Education Student",
         organization: "Bold Commerce",
-        summary: "Full stack development of tools and APIs for other Bold Developers",
+        summary: "Full stack development of internal tools and APIs for other Bold Developers",
         Team: "Headless API Team",
         startdate: "2020-01",
         endDate: "2020-04",
@@ -207,8 +207,8 @@ const Experience = [
         techTags: ["GoLang", "React", "Typescript", "JavaScript", "Redux"],
         toolTags: ["Mac", "Git"],
         skillTags: ["Unit Tests", "Snapshot Testing"],
-        relevantLinks: [{display: "GrainVue Product Tour", address: "https://youtu.be/3IAyAunpm1U?si=pyS0iJo1w-Z5ARnU"}, {display: "GrainVue", address: "https://www.grainsystems.com/na/en/campaigns/grainvue/"}, {display: "AGCO", address: "https://www.agcocorp.com/us/en/home.html"}],
-        assets: ["/GrainVuePlaceholder"],
+        relevantLinks: [{display: "Bold Commerce", address: "https://boldcommerce.com/"}],
+        assets: ["/Bold.jpg"],
         details: [
             "Partnered with a team member on a self-directed project making changes to an administrative application to make life easier for Bold developers and the Mayhem team.",
             "Enhanced UI of Bold applications by fixing bugs noticed on unrelated tickets as well as an attention to detail on bug fixes. ",
@@ -230,7 +230,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Mentorship", "Activity Planning", "Video Editing"],
         relevantLinks: [{display: "Explore Program", address: "https://englishfrench.ca/explore/"}],
-        assets: [],
+        assets: ["/Explore2019/Group.jpg"],
         details: [
             "Planned and implemented daily student activities, both individually, and in collaboration with other Animateurs.",
             "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events",
@@ -252,7 +252,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Feedback", "Grading"],
         relevantLinks: [{display: "COMP 1010 Syllabus (No longer includes Processing)", address: "https://umanitoba.ca/science/sites/science/files/2025-10/comp-1000.pdf"}],
-        assets: [],
+        assets: ["/UofM.jpg"],
         details: [
             "Assisted students with introductory Processing assignments, adapting explanations to the coding experience of each student.",
             "Tested assignments before class to provide feedback to the professor and to get familiar with the content.",
@@ -272,7 +272,7 @@ const Experience = [
         toolTags: ["Microsoft Excel"],
         skillTags: ["Communication", "Sales", "Inventory Management", "Budgeting", "Accounting", "Marketing"],
         relevantLinks: [{display:"A Hint of Heather - now under new ownership", address: "https://www.hintofheather.ca/"}],
-        assets: [],
+        assets: ["/HOH/Mobile.jpg", "/HOH/DSCN0605.JPG","/HOH/DSCN0606.JPG","/HOH/DSCN0613.JPG","/HOH/DSCN0616.JPG","/HOH/DSCN0617.JPG","/HOH/DSCN0618.JPG","/HOH/DSCN0619.JPG","/HOH/DSCN0620.JPG","/HOH/DSCN0621.JPG","/HOH/DSCN0622.JPG","/HOH/DSCN0624.JPG",],
         details: [
             "Ran retail booths at half a dozen yearly festivals across Manitoba, sometimes serving hundreds of customers per shift.",
             "Imported custom clothing and supplies for weddings and events year round",
@@ -296,7 +296,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Communication", "Feedback", "Lesson Planning"],
         relevantLinks: [],
-        assets: [],
+        assets: ["/kinsmenlake.jpg"],
         details: [
             "Created and taught age-appropriate swim lessons for children of all ages and skill levels.",
             "Adapted lesson plans on the fly when weather forced lessons inside and out of the water.",
@@ -317,7 +317,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Communication", "Feedback", "Lesson Planning", "First Aid", "Water Safety"],
         relevantLinks: [],
-        assets: [],
+        assets: ["/kinsmenlake.jpg"],
         details: [
             "Created and taught age-appropriate swim lessons for children of all ages and skill levels.",
             "Adapted lesson plans on the fly when weather forced lessons inside and out of the water.",
@@ -339,12 +339,12 @@ const Experience = [
         Team: "Co-operative Education Program",
         startdate: "2020-01-01",
         endDate: "",
-        generalTags: ["Projects"],
+        generalTags: ["Volunteering"],
         techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test"],
         toolTags: [],
         skillTags: [],
-        relevantLinks: [],
-        assets: [],
+        relevantLinks: [{display: "Science Co-op Website", address: "https://umanitoba.ca/science/programs-of-study/co-op"}],
+        assets: ["/UofM.jpg"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -355,12 +355,12 @@ const Experience = [
         Team: "Rainbow Six Mobile Tools Team",
         startdate: "2020-01-01",
         endDate: "",
-        generalTags: ["Projects"],
+        generalTags: ["Volunteering"],
         techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test"],
         toolTags: [],
         skillTags: [],
-        relevantLinks: [],
-        assets: [],
+        relevantLinks: [{display: "WICS events page", address: "https://umwics.ca/events"}],
+        assets: ["/mentorMingle.webp", "/mentorMingle2.webp"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -376,7 +376,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Communication", "Budgeting", "Mentorship", "Conflict Resolution"],
         relevantLinks: [{display: "UMCSSA Website", address: "https://umanitobacssa.ca/"}],
-        assets: ["/CSSALogo.svg"],
+        assets: ["/CSSA/CSSALogo.svg", "/CSSA/discord.gif", "/CSSA/Execs.jpg", "/CSSA/GameJam.jpg", "/CSSA/GeneralMeeting.png", "/CSSA/Goals.jpg", "/CSSA/lounge.jpg","/CSSA/Interview.png"],
         details: [
             "Led the moderation team for an official U of M CS Discord server used by hundreds of students to discuss courses, attend virtual events, and stay connected during Covid-19 lockdown. ",
             "Hosted a variety of new virtual events to allow members to continue building community and learning new skills during lockdown, including a Game Jam and job skills workshops.", 
@@ -398,7 +398,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Mentorship"],
         relevantLinks: [{display: "UMWICS", address: "https://umwics.ca/"}],
-        assets: [],
+        assets: ["/WICS/Banner.png", "/WICS/Execs.png", "/WICS/logo1.jpg", "/WICS/Winter.jpg"],
         details: [
             "Collaborated with three other student groups to found and moderate a Discord server used by hundreds of students to discuss courses, attend virtual events, and stay connected during Covid-19 lockdown.",
             "Created processes and documentation for the first UMWICS scholarship, then maintained those relationships and processes to allow the scholarship to continue for a second year. ", 
@@ -420,72 +420,12 @@ const Experience = [
         toolTags: [],
         skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Mentorship"],
         relevantLinks: [{display: "UMWICS", address: "https://umwics.ca/"}],
-        assets: [],
+        assets: ["/WICS/logo1.jpg","/WICS/scholarship.png"],
         details: ["Created processes and documentation for the first UMWICS scholarship, then maintained those relationships and processes to allow the scholarship to continue for a second year. ", 
             "Built and maintained industry partnerships with local companies such as Google, Skip the Dishes, and Nimbus Tutoring.",
             "Researched, proposed, and oversaw a change of banking services to greatly increase ease of operation for the finance committee.",
             "Hosted networking and community building events every semester at the offices of industry partners across the city.",
             "Mentored incoming executive members before and after their election to help develop their skills and confidence, and to ensure a smooth transition."]
-    },
-    {
-        id: 197,
-        role: "Panel Member & activity co-organizer, Go Code Girl ",
-        organization: "f",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
-        startdate: "2019-01 and 2020-01",
-        endDate: "",
-        generalTags: ["Volunteering"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test2"],
-        toolTags: [],
-        skillTags: [],
-        relevantLinks: [],
-        assets: [],
-        details: [
-            "Answered questions as part of a panel with other volunteers",
-            "Planned and co-led a maze solving and cryptography activity with a team of other volunteers",
-            "Adjusted activity according to student progress and time constraints."
-
-        ]
-    },
-    {
-        id: 198,
-        role: "Gift Shop Coordinator",
-        organization: "Folklorama",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
-        startdate: "2014",
-        endDate: "2017",
-        generalTags: ["Volunteering", "Business", "Retail"],
-        techTags: [],
-        toolTags: [],
-        skillTags: ["People Management"],
-        relevantLinks: [],
-        assets: [],
-        details: [
-            "Managed and coordinated volunteers.",
-            "Advocated for the concerns of the gift shop owners at coordinator meetings.",
-            "Tracked and managed cash flow.",
-            "Designed booth layout and supervised setup."
-        ]
-    },
-    {
-        id: 199,
-        role: "Classroom Assistant",
-        organization: "Interlake School Division",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "R.W. Bobby Bend School",
-        startdate: "2017",
-        generalTags: ["Volunteering", "French Immersion"],
-        techTags: [],
-        toolTags: [],
-        skillTags: ["People Management"],
-        relevantLinks: [],
-        assets: [],
-        details: [
-            "Independently helped students with teacher-given tasks",
-            "Sought out teachers that needed help."
-        ]
     },
 
     /*Projects*/
@@ -502,7 +442,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [],
-        assets: [],
+        assets: ["/UbiProud/walk.jpg", "/UbiProud/DangerousTime.jpg"],
         details: [
             "Led monthly meetings to update members on events/company news and to get their ideas and feedback on future plans",
             "Collaborated with comms teams on studio and company-wide announcements and articles to promote events and visibility.",
@@ -525,7 +465,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [],
-        assets: [],
+        assets: ["/Ubi.png"],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -541,7 +481,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [],
-        assets: [],
+        assets: ["/OYW/groupShot.jpg", "/OYW/Opening.jpg", "/OYW/panel.jpg", "/OYW/together.jpg", "/OYW/Trudeau.jpg", "/OYW/trudeauPanel.jpg"],
         details: [
             "Selected as one of 5 young leaders from across Canadian Ubisoft Studios to represent the company at the One Young World Summit in Montreal", 
             "Tracked and managed time between Delegate work and normal responsibilities",
