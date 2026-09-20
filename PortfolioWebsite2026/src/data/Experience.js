@@ -36,9 +36,10 @@ const Experience = [
         toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development"],
         skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6SplashPage.jpg", "/GoogleImages1.jpg", "/GoogleImages2.png", "GoogleImages3.png"],
+        assets: ["/R6/Tools/MainScreen.gif", "/R6/Both/R6SplashPage.jpg", "/R6/Tools/Dokk.gif", "/R6/Tools/Legs.gif", "/R6/Tools/WeaponSpin.gif", "/R6/Tools/SideRails.gif","/R6/Tools/BattlePass.gif", "/R6/Tools/banner.png", "/R6/Tools/banner2.png", "/R6/Tools/Packs.gif", "/R6/Tools/Packtour.gif", "/R6/Tools/PackMag.gif", "/R6/Tools/Packitems.gif", "/R6/Both/Credits.jpg"],
         details: [
             "Led design and development of a WPF tool allowing artists across 3 teams to compress and manage 2D assets.",
+            "Collaborated closely with UI/UX designers to develop intuitive interfaces for custom tools in 3 different frameworks and used by 5 different teams.",
             "Led an essential initiative to expand and improve asset creation pipelines",
             "Maintained custom asset creation pipelines that enabled design teams to produce hundreds of cosmetics for every 8-week season.",
             "Led user feedback sessions at each stage of tool development in order to ensure that the designs were meeting user requirements.",
@@ -74,9 +75,10 @@ const Experience = [
         toolTags: ["Perforce","Jira", "Confluence"],
         skillTags: ["Test Design", "Technical Design", "Manual Testing", "Automated Testing", "UI Optimization", "Performance Profiling", "Leadership", "Public Speaking"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6SplashPage.jpg", "/GoogleImages1.jpg", "/GoogleImages2.png", "GoogleImages3.png"],
+        assets: ["/R6/Both/R6SplashPage.jpg","/R6/Both/Credits.jpg"],
         details: [
             "Redesigned controller support systems to allow for a variety of customization options for players and designers.",
+            "Implemented in-game message features that allowed players to use operator abilities with multi-stage progress messages, with different messages for the player, their team, and the enemy team.",
             "Developed UI features for new operators to allow players to better utilize operator abilities during a match.",
             "Created test cases for complex interactions between game  controls and user settings, allowing designers and programmers to come to a shared understanding of intended behaviours.",
             "Collaborated with team members and QC to ensure high quality code during a stability push on the project",

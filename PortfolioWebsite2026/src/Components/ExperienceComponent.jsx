@@ -7,8 +7,8 @@ export default function experienceComponent({ id, role, organization, summary, t
     return (
         <div className="experienceComponent">
             <div style={{ display: "flex", alignItems: "center"}}>
-                <div style={{ textAlign: "right", padding: "20px", width: "60%" }}>
-                    <h1>{role}</h1>
+                <div style={{ textAlign: "right", padding: "20px", width: "40%" }}>
+                    <h1 style={{lineHeight: "105%"}}>{role}</h1>
                     <h2>{organization}</h2>
                     {team !== undefined && <h3>{Team}</h3>}
                     <p>{summary}</p>
@@ -16,7 +16,7 @@ export default function experienceComponent({ id, role, organization, summary, t
                     <p>{startdate} - {endDate}</p> : 
                     <p>{startdate}</p>}
                 </div>
-                <div style={{ width: "40%", overflow: "hidden", marginTop: "40px", marginRight: "20px" }}>
+                <div style={{ width: "60%", overflow: "hidden", marginTop: "40px", marginRight: "20px" }}>
                     <Slideshow images={assets} />
                 </div>
             </div>
