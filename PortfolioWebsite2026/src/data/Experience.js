@@ -36,7 +36,7 @@ const Experience = [
         toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development"],
         skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6/Tools/MainScreen.gif", "/R6/Both/R6SplashPage.jpg", "/R6/Tools/Dokk.gif", "/R6/Tools/Legs.gif", "/R6/Tools/WeaponSpin.gif", "/R6/Tools/SideRails.gif","/R6/Tools/BattlePass.gif", "/R6/Tools/banner.png", "/R6/Tools/banner2.png", "/R6/Tools/Packs.gif", "/R6/Tools/tour.gif", "/R6/Tools/PackMag.gif", "/R6/Tools/Packitems.gif"],
+        assets: ["/R6/Tools/MainScreen.gif", "/R6/Both/R6SplashPage.jpg", "/R6/Tools/Dokk.gif", "/R6/Tools/Legs.gif", "/R6/Tools/WeaponSpin.gif", "/R6/Tools/SideRails.gif","/R6/Tools/BattlePass.gif", "/R6/Tools/banner.png", "/R6/Tools/banner2.png", "/R6/Tools/Packs.gif", "/R6/Tools/tour.gif", "/R6/Tools/PackMag.gif", "/R6/Tools/PackItems.gif"],
         details: [
             "Led design and development of a WPF tool allowing artists across 3 teams to compress and manage 2D assets.",
             "Collaborated closely with UI/UX designers to develop intuitive interfaces for custom tools in 3 different frameworks and used by 5 different teams.",
