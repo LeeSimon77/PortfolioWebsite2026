@@ -15,15 +15,16 @@ export default function Slideshow({images}) {
     const prevSlide = () => {
         setIndex((prevIndex) => prevIndex === 0 ? images.length - 1 : prevIndex - 1);
     }
-
+    
+    const baseTimeout = 5000; // 5 seconds
     useEffect(() => {
-        const interval = setInterval(nextSlide, 5000);
-        return () => clearInterval(interval);
-    }, [images.length]);
+        const timeout = setTimeout(nextSlide, images[index].timeout || baseTimeout);
+        return () => clearTimeout(timeout);
+    }, [index]);
 
     return(
         <div className="slideshow">
-            <img src={images[index]} alt={`Slide ${index}`} style={{height:"300px", maxWidth: "100%", objectFit: "contain"}}/>
+            <img src={images[index].item} alt={`Slide ${index}`} style={{height:"300px", maxWidth: "100%", objectFit: "contain"}}/>
         </div>
     );
     /* TODO add next and prev buttons back in

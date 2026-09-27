@@ -36,7 +36,7 @@ const Experience = [
         toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development"],
         skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6/Tools/MainScreen.gif", "/R6/Both/R6SplashPage.jpg", "/R6/Tools/Dokk.gif", "/R6/Tools/Legs.gif", "/R6/Tools/WeaponSpin.gif", "/R6/Tools/SideRails.gif","/R6/Tools/BattlePass.gif", "/R6/Tools/banner.png", "/R6/Tools/banner2.png", "/R6/Tools/Packs.gif", "/R6/Tools/tour.gif", "/R6/Tools/PackMag.gif", "/R6/Tools/PackItems.gif"],
+        assets: [{item: "/R6/Tools/MainScreen.gif", timeout: 6075}, {item: "/R6/Both/R6SplashPage.jpg"}, {item: "/R6/Tools/Dokk.gif", timeout:  9185}, {item: "/R6/Tools/Legs.gif", timeout: 10195 }, {item: "/R6/Tools/WeaponSpin.gif", timeout: 4045 }, {item: "/R6/Tools/SideRails.gif", timeout: 13225}, {item: "/R6/Tools/BattlePass.gif", timeout:  12215}, {item: "/R6/Tools/banner.png" }, {item: "/R6/Tools/banner2.png" }, {item: "/R6/Tools/Packs.gif", timeout: 8165}, {item: "/R6/Tools/tour.gif", timeout: 13225 },  {item: "/R6/Tools/PackItems.gif", timeout: 13225 }],
         details: [
             "Led design and development of a WPF tool allowing artists across 3 teams to compress and manage 2D assets.",
             "Collaborated closely with UI/UX designers to develop intuitive interfaces for custom tools in 3 different frameworks and used by 5 different teams.",
@@ -75,7 +75,7 @@ const Experience = [
         toolTags: ["Perforce","Jira", "Confluence"],
         skillTags: ["Test Design", "Technical Design", "Manual Testing", "Automated Testing", "UI Optimization", "Performance Profiling", "Leadership", "Public Speaking"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6/HUD/Scanning.gif","/R6/Both/R6SplashPage.jpg","/R6/HUD/JumpProgress.gif", "/R6/HUD/DefuserMessages.gif","/R6/HUD/HUDCusto.png","/R6/HUD/Rappel.gif","/R6/HUD/Layouts.jpg", "/R6/HUD/EE1D.gif"],
+        assets: [{item: "/R6/HUD/Scanning.gif", timeout: 10615}, {item: "/R6/Both/R6SplashPage.jpg" }, {item: "/R6/HUD/JumpProgress.gif", timeout: 6395 }, {item: "/R6/HUD/DefuserMessages.gif", timeout: 8515}, {item: "/R6/HUD/HUDCusto.png" }, {item: "/R6/HUD/Rappel.gif", timeout: 6785}, {item: "/R6/HUD/Layouts.jpg" }, {item: "/R6/HUD/EE1D.gif", timeout: 8315}],
         details: [
             "Redesigned controller support systems to allow for a variety of customization options for players and designers.",
             "Implemented in-game message features that allowed players to use operator abilities with multi-stage progress messages, with different messages for the player, their team, and the enemy team.",
@@ -105,7 +105,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Mentorship", "Activity Planning"],
         relevantLinks: [{display: "Explore Program", address: "https://englishfrench.ca/explore/"}],
-        assets: ["/Explore2022/Group.jpg", "/Explore2022/Me.jpg", "/Explore2022/Meme.jpg", "/Explore2022/Alouette.jpg", "/Explore2022/TR.jpg"],
+        assets: [{item: "/Explore2022/Group.jpg" }, {item: "/Explore2022/Me.jpg" }, {item: "/Explore2022/Meme.jpg" }, {item: "/Explore2022/Alouette.jpg" }, {item: "/Explore2022/TR.jpg" }],
         details: [
             "Planned and implemented daily student activities, both individually, and in collaboration with other Animateurs.",
             "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events",
@@ -127,7 +127,7 @@ const Experience = [
         toolTags: ["Vistaprint"],
         skillTags: ["Technical Research", "Communication", "Documentation", "UI Design"],
         relevantLinks: [{display: "CLI Site", address: "https://communitylivinginterlake.ca/"}],
-        assets: ["/CLI/WebsiteScroll.gif", "/CLI/after.jpg", "/CLI/working.jpg", "/CLI/working.webp"],
+        assets: [{item: "/CLI/WebsiteScroll.gif", timeout: 15215}, {item: "/CLI/after.jpg"}, {item: "/CLI/working.jpg"}, {item: "/CLI/working.webp"}],
         details: [
             "Built a new WordPress website to make it easier for non-technical staff to add and edit content. The site is still being used as of 2026",
             "Advised on advertising platforms, and supported the setup of social media accounts.",
@@ -148,7 +148,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Feedback", "Grading"],
         relevantLinks: [{display: "COMP 1010 Syllabus (No longer includes Processing)", address: "https://umanitoba.ca/science/sites/science/files/2025-10/comp-1000.pdf"}],
-        assets: ["/UofM.jpg"],
+        assets: [{item: "/UofM.jpg"}],
         details: [
             "Assisted students with introductory Processing assignments, adapting explanations to the coding experience of each student.",
             "Tested assignments before class to provide feedback to the professor and to get familiar with the content.",
@@ -168,7 +168,7 @@ const Experience = [
         toolTags: ["Perforce"],
         skillTags: ["Test Design"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: ["/R6/HUD/ADS.gif","/R6/HUD/ADS2.gif","/R6/HUD/ADS3.gif","/R6/HUD/ADS4.gif","/R6/Both/R6SplashPage.jpg"],
+        assets: [{item: "/R6/HUD/ADS.gif", timeout: 5655}, {item: "/R6/HUD/ADS2.gif", timeout: 14785}, {item: "/R6/HUD/ADS3.gif", timeout: 15605}, {item: "/R6/HUD/ADS4.gif", timeout: 9285}, {item: "/R6/Both/R6SplashPage.jpg"}],
         details: [
             "Upgraded complex Unity systems to allow more adaptability and data storage while considering dependencies and project stability.",
             "Worked closely with quality control to ensure submitted code was high quality and any bugs were fixed before they affected other developers or clients.",
@@ -188,7 +188,7 @@ const Experience = [
         toolTags: ["Windows"],
         skillTags: ["Unit Tests"],
         relevantLinks: [{display: "Screenshot Source: GrainVue Product Tour", address: "https://youtu.be/3IAyAunpm1U?si=pyS0iJo1w-Z5ARnU"}, {display: "GrainVue", address: "https://www.grainsystems.com/na/en/campaigns/grainvue/"}, {display: "AGCO", address: "https://www.agcocorp.com/us/en/home.html"}],
-        assets: ["/GrainVue/Logo.jpg", "/GrainVue/HomeScreen.jpg","/GrainVue/Alerts.jpg", "/GrainVue/Dashboard.jpg"],
+        assets: [{item: "/GrainVue/Logo.jpg"}, {item: "/GrainVue/HomeScreen.jpg"}, {item: "/GrainVue/Alerts.jpg"}, {item: "/GrainVue/Dashboard.jpg"}],
         details: [
             "Developed a new method of deciding what scans to upload from imbedded BeagleBone boards to give users up-to date data and give developers more freedom in adapting scanning tasks.",
             "Redesigned and organized redux systems to make them easier to maintain and upgrade. ",
@@ -208,7 +208,7 @@ const Experience = [
         toolTags: ["Mac", "Git"],
         skillTags: ["Unit Tests", "Snapshot Testing"],
         relevantLinks: [{display: "Bold Commerce", address: "https://boldcommerce.com/"}],
-        assets: ["/Bold.jpg"],
+        assets: [{item: "/Bold.jpg"}],
         details: [
             "Partnered with a team member on a self-directed project making changes to an administrative application to make life easier for Bold developers and the Mayhem team.",
             "Enhanced UI of Bold applications by fixing bugs noticed on unrelated tickets as well as an attention to detail on bug fixes. ",
@@ -230,7 +230,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Mentorship", "Activity Planning", "Video Editing"],
         relevantLinks: [{display: "Explore Program", address: "https://englishfrench.ca/explore/"}],
-        assets: ["/Explore2019/Group.jpg"],
+        assets: [{item: "/Explore2019/Group.jpg"}],
         details: [
             "Planned and implemented daily student activities, both individually, and in collaboration with other Animateurs.",
             "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events",
@@ -252,7 +252,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Feedback", "Grading"],
         relevantLinks: [{display: "COMP 1010 Syllabus (No longer includes Processing)", address: "https://umanitoba.ca/science/sites/science/files/2025-10/comp-1000.pdf"}],
-        assets: ["/UofM.jpg"],
+        assets: [{item: "/UofM.jpg"}],
         details: [
             "Assisted students with introductory Processing assignments, adapting explanations to the coding experience of each student.",
             "Tested assignments before class to provide feedback to the professor and to get familiar with the content.",
@@ -272,7 +272,7 @@ const Experience = [
         toolTags: ["Microsoft Excel"],
         skillTags: ["Communication", "Sales", "Inventory Management", "Budgeting", "Accounting", "Marketing"],
         relevantLinks: [{display:"A Hint of Heather - now under new ownership", address: "https://www.hintofheather.ca/"}],
-        assets: ["/HOH/Mobile.jpg", "/HOH/DSCN0605.JPG","/HOH/DSCN0606.JPG","/HOH/DSCN0613.JPG","/HOH/DSCN0616.JPG","/HOH/DSCN0617.JPG","/HOH/DSCN0618.JPG","/HOH/DSCN0619.JPG","/HOH/DSCN0620.JPG","/HOH/DSCN0621.JPG","/HOH/DSCN0622.JPG","/HOH/DSCN0624.JPG",],
+        assets: [{item: "/HOH/Mobile.jpg"}, {item: "/HOH/DSCN0605.JPG"}, {item: "/HOH/DSCN0606.JPG"}, {item: "/HOH/DSCN0613.JPG"}, {item: "/HOH/DSCN0616.JPG"}, {item: "/HOH/DSCN0617.JPG"}, {item: "/HOH/DSCN0618.JPG"}, {item: "/HOH/DSCN0619.JPG"}, {item: "/HOH/DSCN0620.JPG"}, {item: "/HOH/DSCN0621.JPG"}, {item: "/HOH/DSCN0622.JPG"}, {item: "/HOH/DSCN0624.JPG"}],
         details: [
             "Ran retail booths at half a dozen yearly festivals across Manitoba, sometimes serving hundreds of customers per shift.",
             "Imported custom clothing and supplies for weddings and events year round",
@@ -296,7 +296,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Communication", "Feedback", "Lesson Planning"],
         relevantLinks: [],
-        assets: ["/kinsmenlake.jpg"],
+        assets: [{item: "/kinsmenlake.jpg"}],
         details: [
             "Created and taught age-appropriate swim lessons for children of all ages and skill levels.",
             "Adapted lesson plans on the fly when weather forced lessons inside and out of the water.",
@@ -317,7 +317,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Communication", "Feedback", "Lesson Planning", "First Aid", "Water Safety"],
         relevantLinks: [],
-        assets: ["/kinsmenlake.jpg"],
+        assets: [{item: "/kinsmenlake.jpg"}],
         details: [
             "Created and taught age-appropriate swim lessons for children of all ages and skill levels.",
             "Adapted lesson plans on the fly when weather forced lessons inside and out of the water.",
@@ -344,7 +344,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Science Co-op Website", address: "https://umanitoba.ca/science/programs-of-study/co-op"}],
-        assets: ["/UofM.jpg"],
+        assets: [{item: "/UofM.jpg"}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -360,7 +360,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "WICS events page", address: "https://umwics.ca/events"}],
-        assets: ["/mentorMingle.webp", "/mentorMingle2.webp"],
+        assets: [{item: "/mentorMingle.webp"}, {item: "/mentorMingle2.webp"}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -376,7 +376,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Communication", "Budgeting", "Mentorship", "Conflict Resolution"],
         relevantLinks: [{display: "UMCSSA Website", address: "https://umanitobacssa.ca/"}],
-        assets: ["/CSSA/CSSALogo.svg", "/CSSA/discord.gif", "/CSSA/Execs.jpg", "/CSSA/GameJam.jpg", "/CSSA/GeneralMeeting.png", "/CSSA/Goals.jpg", "/CSSA/lounge.jpg","/CSSA/Interview.png"],
+        assets: [{item: "/CSSA/CSSALogo.svg"}, {item: "/CSSA/discord.gif", timeout: 9695}, {item: "/CSSA/Execs.jpg"}, {item: "/CSSA/GameJam.jpg"}, {item: "/CSSA/GeneralMeeting.png"}, {item: "/CSSA/Goals.jpg"}, {item: "/CSSA/lounge.jpg"}, {item: "/CSSA/Interview.png"}],
         details: [
             "Led the moderation team for an official U of M CS Discord server used by hundreds of students to discuss courses, attend virtual events, and stay connected during Covid-19 lockdown. ",
             "Hosted a variety of new virtual events to allow members to continue building community and learning new skills during lockdown, including a Game Jam and job skills workshops.", 
@@ -398,7 +398,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Mentorship"],
         relevantLinks: [{display: "UMWICS", address: "https://umwics.ca/"}],
-        assets: ["/WICS/Banner.png", "/WICS/Execs.png", "/WICS/logo1.jpg", "/WICS/Winter.jpg"],
+        assets: [{item: "/WICS/Banner.png"}, {item: "/WICS/Execs.png"}, {item: "/WICS/logo1.jpg"}, {item: "/WICS/Winter.jpg"}],
         details: [
             "Collaborated with three other student groups to found and moderate a Discord server used by hundreds of students to discuss courses, attend virtual events, and stay connected during Covid-19 lockdown.",
             "Created processes and documentation for the first UMWICS scholarship, then maintained those relationships and processes to allow the scholarship to continue for a second year. ", 
@@ -420,7 +420,7 @@ const Experience = [
         toolTags: [],
         skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Mentorship"],
         relevantLinks: [{display: "UMWICS", address: "https://umwics.ca/"}],
-        assets: ["/WICS/logo1.jpg","/WICS/scholarship.png"],
+        assets: [{item: "/WICS/logo1.jpg"}, {item: "/WICS/scholarship.png"}],
         details: ["Created processes and documentation for the first UMWICS scholarship, then maintained those relationships and processes to allow the scholarship to continue for a second year. ", 
             "Built and maintained industry partnerships with local companies such as Google, Skip the Dishes, and Nimbus Tutoring.",
             "Researched, proposed, and oversaw a change of banking services to greatly increase ease of operation for the finance committee.",
@@ -442,7 +442,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [],
-        assets: ["/UbiProud/walk.jpg", "/UbiProud/DangerousTime.jpg"],
+        assets: [{item: "/UbiProud/walk.jpg"}, {item: "/UbiProud/DangerousTime.jpg"}],
         details: [
             "Led monthly meetings to update members on events/company news and to get their ideas and feedback on future plans",
             "Collaborated with comms teams on studio and company-wide announcements and articles to promote events and visibility.",
@@ -465,7 +465,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [],
-        assets: ["/Ubi.png"],
+        assets: [{item: "/Ubi.png"}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -481,7 +481,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Ambassador video (edited by me)", address: "https://youtu.be/Z-494IypPPY"}, {display: "2024 Summit Highlights", address: "https://www.youtube.com/watch?v=X05RKPUR3aM"}, {display: "Watch speeches and highlights on the OYW official channel", address: "https://www.youtube.com/@OneYoungWorld/"}],
-        assets: ["/OYW/groupShot.jpg", "/OYW/Opening.jpg", "/OYW/panel.jpg", "/OYW/together.jpg", "/OYW/Trudeau.jpg", "/OYW/trudeauPanel.jpg"],
+        assets: [{item: "/OYW/groupShot.jpg"}, {item: "/OYW/Opening.jpg"}, {item: "/OYW/panel.jpg"}, {item: "/OYW/together.jpg"}, {item: "/OYW/Trudeau.jpg"}, {item: "/OYW/trudeauPanel.jpg"}],
         details: [
             "Selected as one of 5 young leaders from across Canadian Ubisoft Studios to represent the company at the One Young World Summit in Montreal", 
             "Tracked and managed time between Delegate work and normal responsibilities",
@@ -504,7 +504,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Itch.io", address: "https://markrobitaille.itch.io/asteroid-assimilation"}, {display: "GitHub", address: "https://github.com/LeeSimon77/GameJam2022"}],
-        assets: ["/Asteroid/EatingPlanets.gif", "/Asteroid/AsteroidExplosion.gif", "/Asteroid/Credits.gif"],
+        assets: [{item: "/Asteroid/EatingPlanets.gif", timeout: 10595}, {item: "/Asteroid/AsteroidExplosion.gif", timeout: 7995}, {item: "/Asteroid/Credits.gif", timeout: 13295}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -520,7 +520,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "GitHub", address: "https://github.com/LeeSimon77/LeeSimon77.github.io"}],
-        assets: ["/website/carousel.gif", "/website/CoverPage.png"],
+        assets: [{item: "/website/carousel.gif", timeout: 16005}, {item: "/website/CoverPage.png"}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -536,7 +536,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Itch.io", address: "https://markrobitaille.itch.io/unhealthy-study-habits-simulator"}, {display: "GitHub", address: "https://github.com/LeeSimon77/Unhealthy-Study-Habits-Simulator"}],
-        assets: ["/StudyHabits/coffee.gif", "/StudyHabits/starting.gif", "/StudyHabits/eating.gif", "/StudyHabits/failure.gif"],
+        assets: [{item: "/StudyHabits/coffee.gif", timeout: 9695}, {item: "/StudyHabits/starting.gif", timeout: 10595}, {item: "/StudyHabits/eating.gif", timeout: 16295}, {item: "/StudyHabits/failure.gif", timeout: 6795}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -552,7 +552,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Itch.io", address: "https://markrobitaille.itch.io/caterpeeler"}, {display: "GitHub", address: "https://github.com/MarkRobitaille/Caterpeeler"}],
-        assets: ["/Caterpeeler/falling.gif", "/Caterpeeler/starting.gif", "/Caterpeeler/wigglin.gif", "/Caterpeeler/bird.gif"],
+        assets: [{item: "/Caterpeeler/falling.gif", timeout: 14695}, {item: "/Caterpeeler/starting.gif", timeout: 6595}, {item: "/Caterpeeler/wigglin.gif", timeout: 10195}, {item: "/Caterpeeler/bird.gif", timeout: 12695}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
     {
@@ -568,7 +568,7 @@ const Experience = [
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Project channel", address: "https://www.youtube.com/@somethingbeautiful1828"}],
-        assets: ["FutureLaunch.png"],
+        assets: [{item: "FutureLaunch.png"}],
         details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
     },
 ]
