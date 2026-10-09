@@ -59,7 +59,8 @@ const Experience = [
             "Provided regular feedback on processes and proposals from peers and from team leads",
             "Pursued ongoing development by signing up for courses and purchasing training books through the work training budget",
             "Worked on a large variety of tools, navigating very different code bases and finding the right people to ask questions.",
-            "Actively participated in code reviews for team members with the goal of improving the overall quality of the codebase."
+            "Actively participated in code reviews for team members with the goal of improving the overall quality of the codebase.",
+            "Researched and developed technical plans for tool development in order to present leadership with a proposal that met all project and user requirements."
         ]
     },
     {
