@@ -1,7 +1,7 @@
 {
-  "name": "portfoliowebsite2026",
+  "name": "Ceilidh's Portfolio",
   "private": true,
-  "homepage": "https://LeeSimon77.github.io",
+  "homepage": "./",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

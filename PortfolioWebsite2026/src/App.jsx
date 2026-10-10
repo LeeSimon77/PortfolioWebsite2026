@@ -13,7 +13,7 @@ function App() {
     <div> 
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage/>} />
+        <Route path={appConstants.homeLink} element={<HomePage/>} />
         <Route path={appConstants.workLink} element={<WorkExperiencePage />} />
         <Route path={appConstants.volunteeringLink}element={<VolunteerExperiencePage />} />
         <Route path={appConstants.projectsLink} element={<ProjectsPage />} />
