@@ -1,6 +1,7 @@
 export default function HomePage() {
   return (
     <div>
+      <h1>Testing: This is the version on Main</h1>
       <h1>Ceilidh Simon</h1>
       <h2>About Me</h2>
       <p>I am a software developer currently located in Manitoba, Canada</p>
