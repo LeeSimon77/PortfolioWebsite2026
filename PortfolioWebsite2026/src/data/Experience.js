@@ -1,30 +1,27 @@
 /*
-id: ,
-role: ,
-organization: ,
-summary: ,
-Team: ,
-startdate: ,
-endDate: ,
-generalTags: [],
-techTags:[],
-toolTags: [],
-skillTags: [],
-relevantLinks: [],
-assets: [],
-details: [],
-*/
-
-/*Relevant links structure
-{display: "",
-address: ""
-}
+{
+        id: 87,
+        role: ",
+        organization: "",
+        summary: "",
+        Team: "",
+        startdate: "",
+        endDate: "",
+        generalTags: [],
+        techTags: [],
+        toolTags: [],
+        skillTags: [],
+        relevantLinks: [{display: "", address: ""}],
+        assets: [{item: "", timeout: }],
+        details: [
+        ]
+    },
 */
 
 const Experience = [
     /*Work Experience*/
     {
-        id: 87,
+        id: 86,
         role: "Generalist Programmer",
         organization: "Ubisoft Winnipeg",
         summary: "Development of custom internal tools in various languages to support the development of Rainbow Six Mobile",
@@ -34,33 +31,52 @@ const Experience = [
         generalTags: ["Work", "Application Development", "Game Development", "UI Development", "Full-Stack Development", "GAAS", "Live Ops"],
         techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Python"],
         toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development"],
-        skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings"],
+        skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings", "Time Management"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
         assets: [{item: "/R6/Tools/MainScreen.gif", timeout: 6075}, {item: "/R6/Both/R6SplashPage.jpg"}, {item: "/R6/Tools/Dokk.gif", timeout:  9185}, {item: "/R6/Tools/Legs.gif", timeout: 10195 }, {item: "/R6/Tools/WeaponSpin.gif", timeout: 4045 }, {item: "/R6/Tools/SideRails.gif", timeout: 13225}, {item: "/R6/Tools/BattlePass.gif", timeout:  12215}, {item: "/R6/Tools/banner.png" }, {item: "/R6/Tools/banner2.png" }, {item: "/R6/Tools/Packs.gif", timeout: 8165}, {item: "/R6/Tools/tour.gif", timeout: 13225 },  {item: "/R6/Tools/PackItems.gif", timeout: 13225 }],
         details: [
             "Led design and development of a WPF tool allowing artists across 3 teams to compress and manage 2D assets.",
             "Collaborated closely with UI/UX designers to develop intuitive interfaces for custom tools in 3 different frameworks and used by 5 different teams.",
-            "Led an essential initiative to expand and improve asset creation pipelines",
-            "Maintained custom asset creation pipelines that enabled design teams to produce hundreds of cosmetics for every 8-week season.",
-            "Led user feedback sessions at each stage of tool development in order to ensure that the designs were meeting user requirements.",
+            "Led a mission-critical initiative to expand and improve asset creation pipelines, collaborating with users on multiple teams to gather requirements and build a technical design.",
             "Collaborated with a distributed team of designers, gameplay programmers, and testers to redesign data caching methods for over 10,000 project files.",
+            "Researched and developed technical plans for tool development in order to present leadership with a proposal that met all project and user requirements.",
+            "Led user feedback sessions at each stage of tool development in order to ensure that the designs were meeting user requirements.",
+            "Maintained custom asset creation pipelines that enabled design teams to produce hundreds of cosmetics for every 8-week season.",
             "Oversaw a major season release, collaborating with the live ops teams to verify and push assets at each stage as well as to identify and fix critical issues on a two week timeline.",
             "Mentored a co-operative education student, providing them with ongoing feedback and support for their term.",
-            "Documented the behaviours of a custom asset creation pipeline to assist teams across the project in tracing data issues back to potential sources.",
-            "Took initiative to propose and implement new data sync actions to propagate data across three platforms.",
-            "Triaged complex pipeline bugs in collaboration with quality analysts and other dev teams",
-            "Unearthed and resolved pipeline edge cases due to inconsistent database formatting in files made over seven years and several project restructures.",
+            "Took initiative to propose and implement new data sync actions to propagate critical asset data across three platforms.",
+            "Triaged and fixed complex pipeline bugs in collaboration with quality analysts and other dev teams.",
+            "Unearthed and resolved pipeline edge cases due to inconsistent database formatting in assets created over seven years and several project restructures.",
             "Effectively managed incoming bugs/questions, assigned tickets, and employee resource group work to allow for prioritization and efficient use of time.",
+            "Documented the behaviours of a custom asset creation pipeline to assist teams across the project in tracing data issues back to potential sources.",
             "Maintained documentation on bug triaging process for team members, and helped adapt the information for non-technical members of other teams",
             "Led sprint meetings and monthly brainstorming sessions, documenting discussions and extracting next steps.",
             "Member of cross-discipline \"strike teams\" that solved large scale process problems and bugs resulting from those processes.",
-            "Presented to 100 people at studio-wide annual general meeting, collaborating with a team member to create a presentation covering non-project-specific work done in the studio over the course of the year",
-            "Led regular knowledge sharing meetings with team members to get feedback on processes and expand the team’s collective knowledge base",
-            "Provided regular feedback on processes and proposals from peers and from team leads",
+            "Presented to 100 people at studio-wide annual general meeting, collaborating with a team member to create a presentation covering non-project-specific work done in the studio over the course of 2025.",
+            "Led regular knowledge sharing meetings with team members to get feedback on processes and expand the team’s collective knowledge base.",
+            "Provided regular feedback on processes and proposals from peers and from team leads.",
             "Pursued ongoing development by signing up for courses and purchasing training books through the work training budget",
             "Worked on a large variety of tools, navigating very different code bases and finding the right people to ask questions.",
-            "Actively participated in code reviews for team members with the goal of improving the overall quality of the codebase.",
-            "Researched and developed technical plans for tool development in order to present leadership with a proposal that met all project and user requirements."
+            "Actively participated in code reviews for team members with the goal of improving the overall quality of the codebase."
+        ]
+    },{
+        id: 87,
+        role: "Generalist Programmer",
+        organization: "Ubisoft Winnipeg",
+        summary: "Month-long Game Jam to test developer onboarding in the Snowdrop engine",
+        Team: "Inter-Projet team",
+        startdate: "2024-03",
+        endDate: "2024-04",
+        generalTags: ["Work", "Game Development", "Full-Stack Development"],
+        techTags: ["C++", "Node-Based Programming"],
+        toolTags: ["Gitlab"],
+        skillTags: [ "Technical Design","Technical Communication", "Communication", "Public Speaking",  "Debugging", "Distributed Communication"],
+        relevantLinks: [{display: "Snowdrop Engine Announcement", address: "https://www.massive.se/project/snowdrop-engine"}],
+        assets: [{item: "/Snowdrop.jpg"}],
+        details: [
+            "Co-designed and developed a game in the Snowdrop Engine, with a focus on developing gameplay triggers connecting the player character and the environment.",
+            "Provided feedback on the onboarding experience to the Snowdrop team with the goal of improving the process for future developers.",
+            "Presented game progress to studio leadership, and assisted with the presentation of the final project to the studio at large."
         ]
     },
     {
@@ -74,27 +90,27 @@ const Experience = [
         generalTags: ["Work", "Game Development", "Mobile Development", "UI Development", "GAAS"],
         techTags: ["Unity", "C#", "JSON"],
         toolTags: ["Perforce","Jira", "Confluence"],
-        skillTags: ["Test Design", "Technical Design", "Manual Testing", "Automated Testing", "UI Optimization", "Performance Profiling", "Leadership", "Public Speaking"],
+        skillTags: ["Test Design", "Technical Design", "Manual Testing", "Automated Testing", "UI Optimization", "Performance Profiling", "Leadership", "Public Speaking", "Distributed Communication"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
-        assets: [{item: "/R6/HUD/Scanning.gif", timeout: 10615}, {item: "/R6/Both/R6SplashPage.jpg" }, {item: "/R6/HUD/JumpProgress.gif", timeout: 6395 }, {item: "/R6/HUD/DefuserMessages.gif", timeout: 8515}, {item: "/R6/HUD/HUDCusto.png" }, {item: "/R6/HUD/Rappel.gif", timeout: 6785}, {item: "/R6/HUD/Layouts.jpg" }, {item: "/R6/HUD/EE1D.gif", timeout: 8315}],
+        assets: [{item: "/R6/HUD/Scanning.gif", timeout: 10615}, {item: "/R6/Both/R6SplashPage.jpg" }, {item: "/R6/HUD/JumpProgress.gif", timeout: 5300 }, {item: "/R6/HUD/DefuserMessages.gif", timeout: 8515}, {item: "/R6/HUD/HUDCusto.png" }, {item: "/R6/HUD/Rappel.gif", timeout: 6785}, {item: "/R6/HUD/Layouts.jpg" }, {item: "/R6/HUD/EE1D.gif", timeout: 8315}],
         details: [
             "Redesigned controller support systems to allow for a variety of customization options for players and designers.",
-            "Implemented in-game message features that allowed players to use operator abilities with multi-stage progress messages, with different messages for the player, their team, and the enemy team.",
-            "Developed UI features for new operators to allow players to better utilize operator abilities during a match.",
-            "Created test cases for complex interactions between game  controls and user settings, allowing designers and programmers to come to a shared understanding of intended behaviours.",
-            "Collaborated with team members and QC to ensure high quality code during a stability push on the project",
-            "Built a system to silence automated warnings for cases that were exceptions to the team's rules, ensuring that the warnings appearing at validation time were always relevant and needed to be reviewed.",
-            "Participated in an optimization push, reducing draw calls by over 50% to ensure the game could function on low-end devices.",
-            "Profiled optimization improvements both in editor and in game to verify fixes.",
+            "Implemented in-game message features that allowed players to use operator abilities with multi-stage progress messages that appear differently to the player, their team, and the enemy team.",
+            "Created test cases for complex interactions between game controls and user settings, allowing designers and programmers to come to a shared understanding of intended behaviours.",   
+            "Built a system to silence automated warnings for cases that were exceptions to the team's rules, ensuring that the warnings appearing at validation time were always relevant.",
+            "Proposed and developed a system to clean up outdated JSON data in order to improve performance in validation tools.",
+            "Participated in an optimization push that reduced draw calls by over 50% to ensure the game could function on low-end devices.",
             "Took the initiative to propose and implement additional auto-validations to keep bugs and formatting mistakes from entering the codebase.",
-            "Triaged bug reports to determine which team was responsible for the fix.",
-            "Participated in the initial stages of the hiring process for new programmers.",
             "Co-led weekly team playsessions to gather feedback and report bugs.",
+            "Profiled optimization improvements both in editor and on device to verify fixes.",
+            "Triaged bug reports to determine which team was responsible for the fix.",
+            "Participated in resume reviews and cultural interviews for new programmers.",
+            "Collaborated with team members and QC to ensure high quality code during a stability push on the project",
             "Presented regular team updates to the rest of the studio for visibility."
         ]
     },
     {
-        id: 80,
+        id: 89,
         role: "Animatrice (Camp Counselor)",
         organization: "Explore de Trois-Rivières",
         summary: "Counselor for a month-long French Immersion summer camp for teens from across Canada",
@@ -106,11 +122,11 @@ const Experience = [
         toolTags: [],
         skillTags: ["Mentorship", "Activity Planning", "Communication", "Time Management"],
         relevantLinks: [{display: "Explore Program", address: "https://englishfrench.ca/explore/"}],
-        assets: [{item: "/Explore2022/Group.jpg" }, {item: "/Explore2022/Me.jpg" }, {item: "/Explore2022/Meme.jpg" }, {item: "/Explore2022/TR.jpg" }],
+        assets: [{item: "/Explore2022/Group.jpg" }, {item: "/Explore2022/Meme.jpg" }, {item: "/Explore2022/TR.jpg" }],
         details: [
-            "Planned and implemented daily student activities, both individually, and in collaboration with other Animateurs.",
-            "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events",
-            "Taught a weekly storytelling workshop, adapted to 3 levels of French comprehension.",
+            "Planned and implemented daily student activities, both individually, and in collaboration with other animateurs.",
+            "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events with over 50 students.",
+            "Taught a weekly storytelling workshop adapted to 3 levels of French comprehension.",
             "Executed activities on the fly when plans fell through due to weather or cancellation.",
             "Worked closely with the small group of Indigenous students who were part of a program to improve their French skills for University, providing additional support alongside the primary counselor responsible for their well-being."
         ]
@@ -119,7 +135,7 @@ const Experience = [
         id: 90,
         role: "Technology and Website Consultant",
         organization: "Community Living Interlake",
-        summary: "Upgrading and maintaining a WordPress website and as well as advising on and assisting with the technical aspects of social media and general advertising campaigns.",
+        summary: "Upgrading and maintaining a WordPress website and as well as advising on and assisting with the technical aspects of social media and advertising campaigns",
         Team: "",
         startdate: "2021-09",
         endDate: "2021-12",
@@ -133,7 +149,7 @@ const Experience = [
             "Built a new WordPress website to make it easier for non-technical staff to add and edit content. The site is still being used as of 2026",
             "Advised on advertising platforms, and supported the setup of social media accounts.",
             "Supported the design and development of marketing materials such as banners and business cards.",
-            "Documented time spent and sent in monthly invoices for work.",
+            "Tracked and documented hours worked and sent in monthly invoices.",
         ]
     },
     {
@@ -174,6 +190,7 @@ const Experience = [
             "Upgraded complex Unity systems to allow more adaptability and data storage while considering dependencies and project stability.",
             "Worked closely with quality control to ensure submitted code was high quality and any bugs were fixed before they affected other developers or clients.",
             "Coordinated with a large team in multiple studios to create a cohesive project.",
+            "Built UI elements that formed the base of the user settings systems, ensuring all element types behaved as expected with touch controls and set the correct flags."
         ]
     },
     {
@@ -192,7 +209,7 @@ const Experience = [
         assets: [{item: "/GrainVue/Logo.jpg"}, {item: "/GrainVue/HomeScreen.jpg"}, {item: "/GrainVue/Alerts.jpg"}, {item: "/GrainVue/Dashboard.jpg"}],
         details: [
             "Developed a new method of deciding what scans to upload from imbedded BeagleBone boards to give users up-to date data and give developers more freedom in adapting scanning tasks.",
-            "Redesigned and organized redux systems to make them easier to maintain and upgrade. ",
+            "Redesigned and organized redux systems to make them easier to maintain and upgrade.",
             "Designed and implemented unit tests to ensure reliability of customer portal.",
         ]
     },
@@ -211,11 +228,11 @@ const Experience = [
         relevantLinks: [{display: "Bold Commerce", address: "https://boldcommerce.com/"}],
         assets: [{item: "/Bold.jpg"}],
         details: [
-            "Partnered with a team member on a self-directed project making changes to an administrative application to make life easier for Bold developers and the Mayhem team.",
-            "Enhanced UI of Bold applications by fixing bugs noticed on unrelated tickets as well as an attention to detail on bug fixes. ",
+            "Partnered with a team member on a self-directed project making changes to an administrative application to make life easier for Bold developers.",
+            "Enhanced UI of Bold applications by fixing bugs noticed on unrelated tickets as well as an attention to detail on bug fixes.",
             "Improved front-end snapshot testing framework by noticing and investigating discrepancies.",
             "Adapted to team reorganization and a language switch as well as a move to remote work.",
-            "Worked with command line Git tools for source control"
+            "Worked with command line Git tools for source control."
         ]
     },
     {
@@ -234,10 +251,10 @@ const Experience = [
         assets: [{item: "/Explore2019/Group.jpg"}],
         details: [
             "Planned and implemented daily student activities, both individually, and in collaboration with other Animateurs.",
-            "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events",
-            "Taught a weekly workshop on video creation, adapted to 3 levels of French comprehension.",
+            "Coordinated with a team of 18 to organize and undertake multiple large-scale outings and events with up to 50 students.",
+            "Taught a weekly workshop on video creation adapted to 3 levels of French comprehension.",
             "Executed activities on the fly when plans fell through due to weather or cancellation.",
-            "Worked closely with the small group of Indigenous students who were part of a program to improve their French skills for University, providing additional support alongside the primary counselor responsible for their well-being."
+        
         ]
     },
     {
@@ -264,7 +281,7 @@ const Experience = [
         id: 97,
         role: "Partner",
         organization: "A Hint of Heather",
-        summary: "Partner in a family run Scottish Imports Business",
+        summary: "Partner in a family run Scottish imports business",
         Team: "",
         startdate: "2014",
         endDate: "2018",
@@ -276,7 +293,8 @@ const Experience = [
         assets: [{item: "/HOH/Mobile.jpg"}, {item: "/HOH/DSCN0605.JPG"}, {item: "/HOH/DSCN0606.JPG"}, {item: "/HOH/DSCN0613.JPG"}, {item: "/HOH/DSCN0616.JPG"}, {item: "/HOH/DSCN0617.JPG"}, {item: "/HOH/DSCN0618.JPG"}, {item: "/HOH/DSCN0619.JPG"}, {item: "/HOH/DSCN0620.JPG"}, {item: "/HOH/DSCN0621.JPG"}, {item: "/HOH/DSCN0622.JPG"}, {item: "/HOH/DSCN0624.JPG"}],
         details: [
             "Ran retail booths at half a dozen yearly festivals across Manitoba, sometimes serving hundreds of customers per shift.",
-            "Imported custom clothing and supplies for weddings and events year round",
+            "Trained and managed volunteers at larger events, ensuring they had the information needed to assist customers and answering any questions during their shift.",
+            "Imported custom clothing and supplies for weddings and other events year round",
             "Selected and ordered stock from suppliers based on current inventory and previous customer preferences.",
             "Set stock prices, balancing overhead costs, margin, and the amount customers were willing to pay.",
             "Planned and executed setup and take-down of displays at events to provide an attractive and functional stall layout under tight time constraints.",
@@ -300,7 +318,7 @@ const Experience = [
         assets: [{item: "/kinsmenlake.jpg"}],
         details: [
             "Created and taught age-appropriate swim lessons for children of all ages and skill levels.",
-            "Adapted lesson plans on the fly when weather forced lessons inside and out of the water.",
+            "Adapted lesson plans on the fly when weather forced students out of the water.",
             "Assessed student capabilities and areas for improvement according to the Red Cross Swim Kids Guidelines",
             "Attended regular re-skilling sessions to keep both teaching and first aid/CPR qualifications current."
         ]
@@ -309,7 +327,7 @@ const Experience = [
         id: 99,
         role: "Lifeguard and Swim Instructor",
         organization: "Kinsmen Lake",
-        summary: "Red Cross Certified lifeguard and swim instructor at an outdoor lake",
+        summary: "Red Cross certified lifeguard and swim instructor at an outdoor lake",
         Team: "",
         startdate: "2015-06",
         endDate: "2015-09",
@@ -321,7 +339,7 @@ const Experience = [
         assets: [{item: "/kinsmenlake.jpg"}],
         details: [
             "Created and taught age-appropriate swim lessons for children of all ages and skill levels.",
-            "Adapted lesson plans on the fly when weather forced lessons inside and out of the water.",
+            "Adapted lesson plans on the fly when weather forced students out of the water.",
             "Assessed student capabilities and areas for improvement according to the Red Cross Swim Kids Guidelines",
             "Attended regular re-skilling sessions to keep teaching, lifesaving, and first aid/CPR qualifications current.",
             "Collaborated with a team of other lifeguards to supervise up to 200 patrons in and around the water.",
@@ -356,18 +374,18 @@ const Experience = [
     },
     {
         id: 193,
-        role: "Mentor mingle as an adult",
-        organization: "University of Manitoba Women In Computer Science Advisory Board",
+        role: "Mentor",
+        organization: "Mentor Mingle - University of Manitoba Women In Computer Science Advisory Board",
         summary: "Spoke about personal experience and answered student questions during a speed mingle event",
         Team: "",
-        startdate: "2024-03",
+        startdate: "2023 and 2024",
         endDate: "",
         generalTags: ["Volunteering", "Mentorship"],
         techTags: [],
         toolTags: [],
         skillTags: ["Public Speaking"],
         relevantLinks: [{display: "WICS events page", address: "https://umwics.ca/events"}],
-        assets: [{item: "/mentorMingle.webp"}, {item: "/mentorMingle2.webp"}],
+        assets: [{item: "/mentorMingle.webp"}],
         details: [
             "Answered student questions about working as a developer and my employment journey with the goal of providing them with advice and reassurance.",
             "Collaborated with other developers to answer questions in a small group setting, ensuring everyone had a chance to speak on a topic.",
@@ -377,14 +395,14 @@ const Experience = [
         id: 194,
         role: "President",
         organization: "University of Manitoba Computer Science Association",
-        summary: "Elected to lead UMCSSA in its mandate of forwarding the interests of computer science undergraduate students and improving their student experience.",
+        summary: "Elected to lead UMCSSA in its mandate of forwarding the interests of computer science undergraduate students and improving their student experience",
         Team: "",
         startdate: "2021-04",
         endDate: "2022-04",
         generalTags: ["Volunteering", "Leadership", "Student Leadership", "Community Involvement"],
         techTags: [],
         toolTags: [],
-        skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Communication", "Budgeting", "Mentorship", "Conflict Resolution"],
+        skillTags: ["Event Planning", "Team Management", "Public Speaking", "Community Engagement", "Communication", "Budgeting", "Mentorship", "Conflict Resolution", "Distributed Communication"],
         relevantLinks: [{display: "UMCSSA Website", address: "https://umanitobacssa.ca/"}],
         assets: [{item: "/CSSA/CSSALogo.svg"}, {item: "/CSSA/discord.gif", timeout: 9695}, {item: "/CSSA/Execs.jpg"}, {item: "/CSSA/GameJam.jpg"}, {item: "/CSSA/GeneralMeeting.png"}, {item: "/CSSA/Goals.jpg"}, {item: "/CSSA/lounge.jpg"}, {item: "/CSSA/Interview.png"}],
         details: [
@@ -413,7 +431,6 @@ const Experience = [
             "Collaborated with three other student groups to found and moderate a Discord server used by hundreds of students to discuss courses, attend virtual events, and stay connected during Covid-19 lockdown.",
             "Created processes and documentation for the first UMWICS scholarship, then maintained those relationships and processes to allow the scholarship to continue for a second year. ", 
             "Built and maintained industry partnerships with local companies such as Google, Skip the Dishes, and Nimbus Tutoring during the pandemic.",
-            "Researched, proposed, and oversaw a change of banking services to greatly increase ease of operation for the finance committee.",
             "Hosted networking and community building events every semester at the offices of industry partners across the city.",
             "Mentored incoming executive members before and after their election to help develop their skills and confidence, and to ensure a smooth transition."]
     },
@@ -435,7 +452,8 @@ const Experience = [
             "Built and maintained industry partnerships with local companies such as Google, Skip the Dishes, and Nimbus Tutoring.",
             "Researched, proposed, and oversaw a change of banking services to greatly increase ease of operation for the finance committee.",
             "Hosted networking and community building events every semester at the offices of industry partners across the city.",
-            "Mentored incoming executive members before and after their election to help develop their skills and confidence, and to ensure a smooth transition."]
+            "Mentored incoming executive members before and after their election to help develop their skills and confidence, and to ensure a smooth transition."
+        ]
     },
 
     /*Projects*/
@@ -461,13 +479,12 @@ const Experience = [
             "Managed budgeting, funding requests, and expense reports for ERG actvities."
         ]
     },
-    //Finished here
     {
-        id: 200,
+        id: 201,
         role: "Presenter",
         organization: "Spark",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
+        summary: "Asked to be a presenter at the annual Studio general meeting",
+        Team: "",
         startdate: "2025-06",
         endDate: "2025-08",
         generalTags: ["Projects"],
@@ -475,111 +492,144 @@ const Experience = [
         toolTags: [],
         skillTags: ["Public Speaking", "Research"],
         relevantLinks: [],
-        assets: [{item: "/Ubi.png"}],
-        details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+        assets: [{item: "/sparkGroup.jpg"}],
+        details: [
+            "Presented a talk on studio impact and volunteer work to over a hundred people, including studio members and leadership from across Canada.",
+            "Collaborated with a team member and the comms team to compile information and photos, and to write and present an engaging speech."
+        ]
     },
     {
-        id: 201,
+        id: 202,
         role: "Delegate",
         organization: "One Young World",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile HUD Team",
-        startdate: "2020-01-01",
-        endDate: "",
-        generalTags: ["Projects"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git"],
+        summary: "Chosen to represent Ubisoft at a global summit of young leaders and changemakers",
+        Team: "",
+        startdate: "2024-06",
+        endDate: "2025-07",
+        generalTags: ["Projects", "Teaching"],
+        techTags: ["Scratch"],
         toolTags: [],
-        skillTags: [],
+        skillTags: ["Video Editing", "Public Speaking", "Project Management", "Collaboration", "Event Planning", "Networking", "Leadership"],
         relevantLinks: [{display: "Ambassador video (edited by me)", address: "https://youtu.be/Z-494IypPPY"}, {display: "2024 Summit Highlights", address: "https://www.youtube.com/watch?v=X05RKPUR3aM"}, {display: "Watch speeches and highlights on the OYW official channel", address: "https://www.youtube.com/@OneYoungWorld/"}],
         assets: [{item: "/OYW/groupShot.jpg"}, {item: "/OYW/Opening.jpg"}, {item: "/OYW/panel.jpg"}, {item: "/OYW/together.jpg"}, {item: "/OYW/Trudeau.jpg"}, {item: "/OYW/trudeauPanel.jpg"}],
         details: [
-            "Selected as one of 5 young leaders from across Canadian Ubisoft Studios to represent the company at the One Young World Summit in Montreal", 
-            "Tracked and managed time between Delegate work and normal responsibilities",
-            "Planned, organized, and led two technical education workshops for 20 middle school students in under a month.",
+            "Selected as one of 5 young leaders from across Canadian Ubisoft Studios to represent the company at the One Young World Summit in Montreal.", 
+            "Tracked and managed time between Delegate work and normal responsibilities.",
+            "Attended trainings and prep sessions before the summit, and debrief sessions after.",
+            "Attended a three day summit with leaders from over 250 countries to network, learn, and gather inspiration.",
+            "Collaborated with other delegates to create and present a project proposal based on learnings and inspiration from the summit.",
             "Redesigned project plans to align with changes to the company's resources.",
-            "Attended trainings and prep sessions",
-            "Attended a three day summit with leaders from over 250 countries"
+            "Planned, organized, and led two technical education workshops for 40 middle school students with less than a month's notice."
         ]
     },
     {
         id: 203,
-        role: "2022 game jam",
-        organization: "d",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
-        startdate: "2020-01-01",
+        role: "Organizer and Participant",
+        organization: "Game Jam - University of Manitoba Computer Science Student Association",
+        summary: "Organized and ran a weekend game jam and developed a game on a team of 2 during the event",
+        Team: "Asteroid Assimilation",
+        startdate: "2022",
         endDate: "",
-        generalTags: ["Projects"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test", "test2"],
-        toolTags: [],
-        skillTags: [],
+        generalTags: ["Projects", "Game Development", "UI Development", "Distributed Team"],
+        techTags: ["Unity", "C#"],
+        toolTags: ["GitHub", "Discord"],
+        skillTags: ["Event Planning", "Game Development", "Collaboration", "Time Management", "Public Speaking"],
         relevantLinks: [{display: "Itch.io", address: "https://markrobitaille.itch.io/asteroid-assimilation"}, {display: "GitHub", address: "https://github.com/LeeSimon77/GameJam2022"}],
-        assets: [{item: "/Asteroid/EatingPlanets.gif", timeout: 10595}, {item: "/Asteroid/AsteroidExplosion.gif", timeout: 7995}, {item: "/Asteroid/Credits.gif", timeout: 13295}],
-        details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+        assets: [{item: "/Asteroid/EatingPlanets.gif", timeout: 10595}, {item: "/Asteroid/AsteroidExplosion.gif", timeout: 7995}, {item: "/Asteroid/Credits.gif", timeout: 10500}],
+        details: [
+            "Planned and organized a virtual game jam for approximately 100 computer science students.",
+            "Researched and presented a Unity tutorial and presentation for students to learn the basics of Unity and C# during the event.",
+            "Collaborated with industry mentors to provide students with Gitlab and general game development tutorials during the event.",
+            "Balanced game development with assisting students, coordinating with mentors, and running the event.",
+            "Worked with a teammate who was also helping run the event in order to divide responsibilities and manage scope to ensure we could complete a game despite our other responsibilities.",
+            "Developed and released a 2D game in Unity, primarily focusing on UI and player controls.",
+        ]
     },
     {
-        id: 206,
-        role: "Hackathon",
-        organization: "f",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
-        startdate: "2019-12",
+        id: 204,
+        role: "Participant",
+        organization: "Game Jam - University of Manitoba Computer Science Student Association",
+        summary: "Part of a team of 5 that developed a game during a weekend game jam event",
+        Team: "Unhealthy Study Habits Simulator",
+        startdate: "2021",
         endDate: "",
-        generalTags: ["Projects"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test2"],
-        toolTags: [],
-        skillTags: [],
-        relevantLinks: [{display: "GitHub", address: "https://github.com/LeeSimon77/LeeSimon77.github.io"}],
-        assets: [{item: "/website/carousel.gif", timeout: 16005}, {item: "/website/CoverPage.png"}],
-        details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
-    },
-    {
-        id: 207,
-        role: "2021 game jam",
-        organization: "d",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
-        startdate: "2020-01-01",
-        endDate: "",
-        generalTags: ["Projects"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test", "test2"],
-        toolTags: [],
-        skillTags: [],
+        generalTags: ["Projects", "Game Development"],
+        techTags: ["Unity", "C#"],
+        toolTags: ["GitHub"],
+        skillTags: ["Leadership", "Collaboration", "Time Management"],
         relevantLinks: [{display: "Itch.io", address: "https://markrobitaille.itch.io/unhealthy-study-habits-simulator"}, {display: "GitHub", address: "https://github.com/LeeSimon77/Unhealthy-Study-Habits-Simulator"}],
-        assets: [{item: "/StudyHabits/coffee.gif", timeout: 9695}, {item: "/StudyHabits/starting.gif", timeout: 10595}, {item: "/StudyHabits/eating.gif", timeout: 16295}, {item: "/StudyHabits/failure.gif", timeout: 6795}],
-        details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+        assets: [{item: "/StudyHabits/coffee.gif", timeout: 9695}, {item: "/StudyHabits/starting.gif", timeout: 10580}, {item: "/StudyHabits/Eating.gif", timeout: 11100}, {item: "/StudyHabits/failure.gif", timeout: 6795}],
+        details: [
+            "Developed and released a 2D game in Unity, primarily focusing on game stats and timer mechanics.",
+            "Broke up work amongst a large team, pair programming when necessary to ensure that all team members were able to contribute as much as possible.",
+            "Managed scope to ensure that everyone was able to contribute and the game didn't become too large to complete in the time available.",
+        ]
     },
     {
-        id: 208,
-        role: "2019 game jam",
-        organization: "d",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
+        id: 205,
+        role: "Participant",
+        organization: "Game Jam - University of Manitoba Computer Science Student Association",
+        summary: "Part of a team of 5 that developed a game during a weekend game jam event",
+        Team: "Caterpeeler",
         startdate: "2020-01-01",
         endDate: "",
-        generalTags: ["Projects"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test", "test2"],
+        generalTags: ["Projects", "Game Development"],
+        techTags: ["Unity", "C#"],
         toolTags: [],
         skillTags: [],
         relevantLinks: [{display: "Itch.io", address: "https://markrobitaille.itch.io/caterpeeler"}, {display: "GitHub", address: "https://github.com/MarkRobitaille/Caterpeeler"}],
-        assets: [{item: "/Caterpeeler/falling.gif", timeout: 14695}, {item: "/Caterpeeler/starting.gif", timeout: 6595}, {item: "/Caterpeeler/wigglin.gif", timeout: 10195}, {item: "/Caterpeeler/bird.gif", timeout: 12695}],
-        details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+        assets: [{item: "/Caterpeeler/falling.gif", timeout: 14695}, {item: "/Caterpeeler/starting.gif", timeout: 6580}, {item: "/Caterpeeler/wigglin.gif", timeout: 10195}, {item: "/Caterpeeler/bird.gif", timeout: 12695}],
+        details: [
+            "Learned the basics of Unity and C# over the course of a weekend to contribute to a game led by more experienced developers.",
+            "Developed the character controller alongside another new Unity developer to allow the player to direct the caterpillar through the level.",
+            "Learned to use GitHub for version control and collaboration with other developers."
+        ]
     },
     {
-        id: 209,
-        role: "CLI video project",
-        organization: "d",
-        summary: "Responsible for developing and maintaining software applications.",
-        Team: "Rainbow Six Mobile Tools Team",
-        startdate: "2020-01-01",
-        endDate: "",
-        generalTags: ["Projects"],
-        techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Git", "Perforce", "test", "test2"],
-        toolTags: [],
-        skillTags: [],
+        id: 206,
+        role: "Co-Lead",
+        organization: "Community Living Interlake",
+        summary: "Co-Led a volunteer project to create videos highlighting the work and successes of a local non-profit organization",
+        Team: "RBC Future Launch",
+        startdate: "2020-01",
+        endDate: "2021-03",
+        generalTags: ["Projects", "Distributed Team"],
+        techTags: [],
+        toolTags: ["Adobe Premiere Pro", "Microsoft Office", "YouTube Video tools"],
+        skillTags: ["Video Editing", "Content Creation", "Communication", "Project Management", "Leadership", "Script Writing", "Filming", "Audio Editing"],
         relevantLinks: [{display: "Project channel", address: "https://www.youtube.com/@somethingbeautiful1828"}],
-        assets: [{item: "FutureLaunch.png"}],
-        details: ["lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."]
+        assets: [{item: "/RBC/SB.gif", timeout: 14910},{item: "/RBC/dayInTheLife.gif", timeout: 22510},{item: "/RBC/curbside.gif", timeout: 20310},{item: "/RBC/whatDoYouKnow.gif", timeout: 17510},{item: "/RBC/FutureLaunch.png"}],
+        details: [
+            "Asked to collaborate with another Community Living Interlake staff member to lead a grant-funded project to create videos highlighting the organization's work with people living with intellectual disabilities.",
+            "Recruited volunteers from staff, clients, and the community at large in order to gather information and find people that wanted to participate in the videos.",
+            "Planned and co-wrote film scripts where applicable, and coordinated what to film in non-scripted videos to ensure that the final product was informative and engaging.",
+            "Adapted project plans in response to Covid-19 restrictions, insuring that local staff could safely secure the videos needed to complete the planned content.",
+            "Compiled and edited video footage into a final product, including adding music, voiceovers, and captions.",
+            "Adapted video edits to feedback provided from CLI leadership and other project members.",
+            "Researched and purchased filming equipment and editing software that was within budget and met the needs of the project.",
+            "Secured and documented video consent forms from participants, and ensured that client privacy and consent was respected throughout the project.",
+            "Ensured that all music and other media used in the videos was properly licensed and credited, and that all copyright laws were followed.",
+        ]
+    },
+    {
+        id: 207,
+        role: "Participant",
+        organization: "Hackathon - University of Manitoba .DevClub",
+        summary: "Developed a personal website during a weekend hackathon event",
+        Team: "Self-directed project",
+        startdate: "2019-12",
+        endDate: "",
+        generalTags: ["Projects", "Web Development", "UI Development"],
+        techTags: ["HTML", "CSS", "GitHub", "GitHub Pages"],
+        toolTags: [],
+        skillTags: ["UI Design"],
+        relevantLinks: [{display: "GitHub", address: "https://github.com/LeeSimon77/LeeSimon77.github.io"}],
+        assets: [{item: "/website/carousel.gif", timeout: 16005}, {item: "/website/CoverPage.png"}],
+        details: [
+            "Learned the basics of HTML and CSS over the course of a weekend, and used that knowledge to create a personal website.",
+            "Designed and implemented a simple UI for the website, including image carousels to provide further context for projects and experiences.",
+            "Hosted the website on GitHub Pages, and used GitHub for version control"
+        ]
     },
 ]
 

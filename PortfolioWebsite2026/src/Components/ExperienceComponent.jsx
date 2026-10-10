@@ -21,7 +21,7 @@ export default function experienceComponent({ id, role, organization, summary, t
                 </div>
             </div>
             
-            {relevantLinks.length > 0 && (
+            {relevantLinks != undefined && relevantLinks.length > 0 && (
                 <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
                     <h4>Links: </h4>
                     {relevantLinks.map((link, index) => (
