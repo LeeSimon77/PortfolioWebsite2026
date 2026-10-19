@@ -3,7 +3,7 @@ import "../Styles/ExperienceComponent.css";
 import { useState, useEffect } from "react";
 
 export default function experienceComponent({ id, role, organization, summary, team, startdate, endDate, generalTags, techTags, toolTags, skillTags, relevantLinks, assets, details }) {
-    const [expanded, setExpanded] = useState(false);
+    const [detailsExpanded, setDetailsExpanded] = useState(false);
     return (
         <div className="experienceComponent">
             <div style={{ display: "flex", alignItems: "center"}}>
@@ -11,14 +11,12 @@ export default function experienceComponent({ id, role, organization, summary, t
                     <h1 style={{lineHeight: "105%"}}>{role}</h1>
                     <h2>{organization}</h2>
                     {team !== undefined && <h3>{Team}</h3>}
-                    <p>{summary}</p>
+                    <p style={{lineHeight: 1, padding: "5px"}}>{summary}</p>
                     {!(endDate === "")? 
                     <p>{startdate} - {endDate}</p> : 
                     <p>{startdate}</p>}
                 </div>
-                <div style={{ width: "60%", overflow: "hidden", marginTop: "40px", marginRight: "20px" }}>
-                    <Slideshow images={assets} />
-                </div>
+                <Slideshow images={assets} />
             </div>
             
             {relevantLinks != undefined && relevantLinks.length > 0 && (
@@ -32,53 +30,46 @@ export default function experienceComponent({ id, role, organization, summary, t
                 </div>
             )}
 
-            {expanded &&
+            {detailsExpanded &&
             <ul style={{ listStylePosition: "inside" }}>
                 { details.map((sentence, index) => (
                     <li key={index}>{sentence}</li>
                 ))}
             </ul>
             }
-            <button onClick={()=> setExpanded(!expanded)}>{expanded? "Minimize Details" : "Expand details" }</button>
+            <button onClick={()=> setDetailsExpanded(!detailsExpanded)}>{detailsExpanded? "Minimize Details" : "Expand details" }</button>
 
             {generalTags.length > 0 &&
                 <div className="tagList">
-                    <h4>General Tags:</h4>
-                    <p>|</p>
+                    <h5>General Tags:</h5>
                     {generalTags.map((tag, index) => (
-                        <p key={index}>|{tag}|</p>
+                        <p key={index}>{index != 0? "|" : " "} {tag} </p>
                     ))}
                     <p>|</p>
                 </div>
             }
             {techTags.length > 0 &&
                 <div className="tagList">
-                    <h4>Technical Tags: </h4>
-                    <p>|</p>
+                    <h5>Technical Tags: </h5>
                     {techTags.map((tag, index) => (
-                        <p key={index}>|{tag}|</p>
+                        <p key={index}>{index != 0? "|" : " "} {tag} </p>
                     ))}
-                    <p>|</p>
                 </div>
             }
             {toolTags.length > 0 &&
                 <div className="tagList">
-                    <h4>Tool Tags: </h4>
-                    <p>|</p>
+                    <h5>Tool Tags: </h5>
                     {toolTags.map((tag, index) => (
-                        <span key={index}>|{tag}|</span>
+                        <span key={index}>{index != 0? "|" : " "} {tag} </span>
                     ))}
-                    <p>|</p>
                 </div>
             }
             {skillTags.length > 0 &&
                 <div className="tagList">
-                    <h4>Skill Tags: </h4>
-                    <p>|</p>
+                    <h5>Skill Tags: </h5>
                     {skillTags.map((tag, index) => (
-                        <span key={index}>|{tag}|</span>
+                        <span key={index}>{index != 0? "|" : " "} {tag} </span>
                     ))}
-                    <p>|</p>
                 </div>
             }
         </div>
