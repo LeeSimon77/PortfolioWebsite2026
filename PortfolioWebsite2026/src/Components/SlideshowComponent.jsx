@@ -26,8 +26,8 @@ export default function Slideshow({images}) {
     return(
         <div className="slideshow">
             <img src={images[index].item} alt={`Slide ${index}`} class="header" style={{height:"300px", maxWidth: "100%", objectFit: "contain"}}/>
-            {images != undefined && images.length > 1 && <button class="back" onClick={prevSlide} style={{float: "left", width: "20px"}}>{'<'}</button>}
-            {images != undefined && images.length > 1 && <button class="next" onClick={nextSlide} style={{float: "right", width: "20px"}}>{'>'}</button>}
+            {images != undefined && images.length > 1 && <button class="back" onClick={prevSlide} style={{justifySelf: "left", width: "20px"}}>{'<'}</button>}
+            {images != undefined && images.length > 1 && <button class="next" onClick={nextSlide} style={{justifySelf: "right", width: "20px"}}>{'>'}</button>}
         </div>
     );
     
