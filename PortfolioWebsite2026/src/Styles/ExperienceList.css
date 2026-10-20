@@ -1,9 +1,0 @@
-.filterButtons
-{
-    display: flex; 
-    flex-direction: row;
-    justify-Content: center;
-    flex-Wrap: wrap;
-    column-gap: 10px; 
-    margin: 10px 20px 10px 20px;
-}
