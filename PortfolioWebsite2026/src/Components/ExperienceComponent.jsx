@@ -45,7 +45,6 @@ export default function experienceComponent({ id, role, organization, summary, t
                     {generalTags.map((tag, index) => (
                         <p key={index}>{index != 0? "|" : " "} {tag} </p>
                     ))}
-                    <p>|</p>
                 </div>
             }
             {techTags.length > 0 &&
