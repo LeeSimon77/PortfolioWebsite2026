@@ -10,6 +10,11 @@
     border-bottom: 1px solid var(--accent-bg);
 }
 
+.socialImg{
+  max-height: 20px;
+  padding: 5px;
+}
+
 a {
   color: var(--text-h);
   font-weight: bold;

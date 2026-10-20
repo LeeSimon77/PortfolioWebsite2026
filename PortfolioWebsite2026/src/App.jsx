@@ -18,7 +18,7 @@ function App() {
         <Route path={appConstants.volunteeringLink}element={<VolunteerExperiencePage />} />
         <Route path={appConstants.projectsLink} element={<ProjectsPage />} />
         <Route path={appConstants.contactLink} element={<div><p>Contact</p></div>} />
-        <Route path="*" element={<div><p>404 Not dFound</p></div>} />
+        <Route path="*" element={<div  style={{marginTop: "55px"}}><p>404 Not dFound</p></div>} />
       </Routes>
     </div>
   )
