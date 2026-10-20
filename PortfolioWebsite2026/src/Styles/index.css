@@ -1,12 +1,14 @@
 :root {
 
-    --text: #FAF5FF;
-    --text-h: #6ceded;
-    --bg: #140c11;
-    --border: #2b0d46;
-    --accent: #6f1d5c;
-    --accent-bg: #0d001a;
-    --link-text: #6cb9c9;
+  --text: #FAF5FF;
+  --text-h: #6ceded;
+  --bg: #140c11;
+  --border: #2b0d46;
+  --accent: #6f1d5c;
+  --accent-bg: #0d001a;
+  --link-text: #6cb9c9;
+
+  --root-width: 1126px;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -32,7 +34,7 @@ body {
 }
 
 #root {
-  width: 1126px;
+  width: var(--root-width);
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -79,4 +81,9 @@ button
   background: var(--accent);
   color: var(--text);
   border: var(--border);
+}
+
+.page
+{
+  margin-top: 55px;
 }
