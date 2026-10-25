@@ -33,6 +33,7 @@ export default function ExperienceList({ defaultFilter }) {
   }
 
   function buildFilterButtons(filterList) {
+    
     return filterList.map((filterItem) => (
       <FilterButton className="filterButton"
         key={filterItem}

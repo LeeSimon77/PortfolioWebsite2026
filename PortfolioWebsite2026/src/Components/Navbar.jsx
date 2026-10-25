@@ -15,8 +15,8 @@ export default function Navbar() {
           <Link to={appConstants.projectsLink}>Projects </Link>
         
           <div className="socials">
-            <a href="https://www.linkedin.com/in/ceilidhsimon" target="_blank"><img className="socialImg" src="PortfolioWebsite2026/Socials/InBug-White.png" alt="Linkedin" /></a>
-            <a href="https://github.com/LeeSimon77" target="_blank"><img className="socialImg" src="PortfolioWebsite2026/Socials/GitHub_Invertocat_White.png" alt="GitHub"/></a>
+            <a href="https://www.linkedin.com/in/ceilidhsimon" target="_blank"><img className="socialImg" src="Socials/InBug-White.png" alt="Linkedin" /></a>
+            <a href="https://github.com/LeeSimon77" target="_blank"><img className="socialImg" src="Socials/GitHub_Invertocat_White.png" alt="GitHub"/></a>
           </div>
         </nav>
     );
