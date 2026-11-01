@@ -2,12 +2,13 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    position: fixed;
-    background-color: rgba(111, 29, 92, 0.4);
+    background-color: rgba(111, 29, 92, 0.4) ;
     max-width: var(--root-width);
     width: 100%;
-    padding: 5px 0px 5px 0px;
+    padding-top: var(--nav-vertical-padding);
+    padding-bottom: var(--nav-vertical-padding);
     border-bottom: 1px solid var(--accent-bg);
+    height: var(--nav-height);
 }
 
 .socialImg{

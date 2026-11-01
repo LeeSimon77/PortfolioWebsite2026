@@ -30,7 +30,7 @@ const Experience = [
         endDate: "2026-06",
         generalTags: ["Work", "Application Development", "Game Development", "UI Development", "Full-Stack Development", "GAAS", "Live Ops"],
         techTags: ["Unity", "C#", "WPF", "MaxScript", "XML", "JSON", "Python"],
-        toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development"],
+        toolTags: ["Gitlab", "Perforce", "Jira", "Confluence", "Agile Development", "ELK Stack"],
         skillTags: [ "Technical Design", "User Feedback", "Mentorship", "Technical Documentation", "Technical Communication", "Communication", "Public Speaking", "Leadership", "Debugging", "Leading Meetings", "Time Management"],
         relevantLinks: [{display: "Global Launch Trailer", address: "https://www.youtube.com/watch?v=qKjRJyfnTyY"}, {display: "R6M Official Website", address: "https://www.ubisoft.com/en-ca/game/rainbow-six/mobile"}, {display: "Google Play", address: "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter&pli=1"}],
         assets: [{item: "PortfolioWebsite2026/R6/Tools/MainScreen.gif", timeout: 6075}, {item: "PortfolioWebsite2026/R6/Both/R6SplashPage.jpg"}, {item: "PortfolioWebsite2026/R6/Tools/Dokk.gif", timeout:  9185}, {item: "PortfolioWebsite2026/R6/Tools/Legs.gif", timeout: 10195 }, {item: "PortfolioWebsite2026/R6/Tools/WeaponSpin.gif", timeout: 4045 }, {item: "PortfolioWebsite2026/R6/Tools/SideRails.gif", timeout: 13225}, {item: "PortfolioWebsite2026/R6/Tools/BattlePass.gif", timeout:  12215}, {item: "PortfolioWebsite2026/R6/Tools/banner.png" }, {item: "PortfolioWebsite2026/R6/Tools/banner2.png" }, {item: "PortfolioWebsite2026/R6/Tools/Packs.gif", timeout: 8165}, {item: "PortfolioWebsite2026/R6/Tools/tour.gif", timeout: 13225 },  {item: "PortfolioWebsite2026/R6/Tools/PackItems.gif", timeout: 13225 }],
@@ -57,7 +57,8 @@ const Experience = [
             "Provided regular feedback on processes and proposals from peers and from team leads.",
             "Pursued ongoing development by signing up for courses and purchasing training books through the work training budget",
             "Worked on a large variety of tools, navigating very different code bases and finding the right people to ask questions.",
-            "Actively participated in code reviews for team members with the goal of improving the overall quality of the codebase."
+            "Actively participated in code reviews for team members with the goal of improving the overall quality of the codebase.",
+            "Researched and helped to implement an observability switch from Prometheus and Grafana to the ELK stack to ensure accurate and readable metrics from users."
         ]
     },{
         id: 87,

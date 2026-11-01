@@ -14,6 +14,9 @@
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
+  --nav-height: 40px;
+  --nav-vertical-padding: 5px;
+
   font: 18px/180% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;

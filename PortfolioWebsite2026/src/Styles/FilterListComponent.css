@@ -1,0 +1,14 @@
+.FiltersPopup{
+    position: fixed;
+    justify-self: right;
+    top: 0px;
+}
+
+.FiltersButton {
+    padding: 3px 5px 3px 5px;
+    background-color: var(--accent-bg);
+    color: var(--text-h);
+    border: 2px solid var(--border);
+    height: calc(var(--nav-height) + var(--nav-vertical-padding) * 2);
+    align-content: center;
+}
