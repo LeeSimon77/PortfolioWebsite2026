@@ -64,12 +64,13 @@ export default function FilterListComponent({activeFilters, addActiveFilter, rem
       <Popup trigger={<button className="FiltersButton"> Filters </button>} position="bottom right">
       <div>
         <div className="filterList">
-                <button onClick={clearFilters}>Clear Filters</button>
+                <button onClick={clearFilters} style={{marginLeft:"20px"}}>Clear Filters</button>
                 <div className="filterButtons">
-                  <h4>Active Filters</h4>
-                  {activeFilterButtons.length > 0 && activeFilterButtons.map((button, index) => (
+                  <h4>Active Filters: </h4>
+                  {activeFilterButtons.length > 1 ? activeFilterButtons.map((button, index) => (
                       <div key={index}>{button}</div>
-                    ))}
+                    ))
+                  : <p>None</p>}
                 </div>
                 {genFilterButtons.length > 0 &&
                   <div className="filterButtons">
