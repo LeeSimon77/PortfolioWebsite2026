@@ -45,6 +45,8 @@ export function getGeneralFilters(experiences, defaultFilter)
         filters = filters.filter((filter) => filter !== defaultFilter);
     }
 
+    filters.sort();
+
     return filters;
 }
 export function getTechFilters(experiences)
@@ -59,6 +61,8 @@ export function getTechFilters(experiences)
         });
     });
 
+    filters.sort();
+
     return filters;
 }
 export function getToolFilters(experiences)
@@ -72,6 +76,8 @@ export function getToolFilters(experiences)
             }
         });
     });
+
+    filters.sort();
 
     return filters;
 }

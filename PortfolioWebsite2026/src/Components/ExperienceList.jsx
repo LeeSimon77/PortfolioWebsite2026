@@ -1,89 +1,37 @@
-import { getFilteredExperiences, getGeneralFilters, getTechFilters, getToolFilters, getSkillFilters } from "../Helpers/FilterHelpers.jsx";
+import { getFilteredExperiences} from "../Helpers/FilterHelpers.jsx";
 import ExperienceComponent from "./ExperienceComponent.jsx";
-import { useEffect, useState } from "react";
-import FilterButton from "./FilterButton.jsx";
-import "../Styles/ExperienceList.css"
+import {useState, useEffect} from "react";
+import FilterListComponent from "./FilterListComponent.jsx";
 
 
 export default function ExperienceList({ defaultFilter }) {
   const [activeFilters, setActiveFilters] = useState([defaultFilter]);
-  const [resetTrigger, setResetTrigger] = useState(false);
 
   const experiences = getFilteredExperiences(activeFilters);
-  const generalFilters = getGeneralFilters(experiences, defaultFilter);
-  const techFilters = getTechFilters(experiences);
-  const toolFilters = getToolFilters(experiences);
-  const skillFilters = getSkillFilters(experiences);
 
-  const[genFilterButtons, setGenFilterButtons] = useState([]);
-  const[techFilterButtons, setTechFilterButtons] = useState([]);
-  const[toolFilterButtons, setToolFilterButtons] = useState([]);
-  const[skillFilterButtons, setSkillFilterButtons] = useState([]);
-
-  useEffect(() => {
-    setGenFilterButtons(buildFilterButtons(generalFilters));
-    setTechFilterButtons(buildFilterButtons(techFilters));
-    setToolFilterButtons(buildFilterButtons(toolFilters));
-    setSkillFilterButtons(buildFilterButtons(skillFilters));
-  }, []);
-
-  function clearFilters() {
-    setActiveFilters([defaultFilter]);
-    setResetTrigger(!resetTrigger);
+  function addActiveFilter(filter) {
+      setActiveFilters((prevFilters) => {
+        if(!prevFilters.includes(filter)) {
+          return [...prevFilters, filter]
+        }
+        else{
+          return prevFilters
+        }
+      }
+    );
   }
 
-  function buildFilterButtons(filterList) {
-    
-    return filterList.map((filterItem) => (
-      <FilterButton className="filterButton"
-        key={filterItem}
-        filter={filterItem}
-        displayName={filterItem}
-        activeFilters={activeFilters}
-        setActiveFilters={setActiveFilters}
-        resetTrigger={resetTrigger}
-      />
-    ));
+  function removeActiveFilter(filter) {
+    setActiveFilters(activeFilters.filter((f) => f !== filter));
+  }
+
+  function resetFilters() {
+    setActiveFilters([defaultFilter]);
   }
 
   return (
     <div className="experienceList">
-      <div className="filterList">
-        <button onClick={clearFilters}>Clear Filters</button>
-        {genFilterButtons.length > 0 &&
-          <div className="filterButtons">
-            <h4>General Filters</h4>
-            {genFilterButtons.map((button, index) => (
-              <div key={index}>{button}</div>
-            ))}
-          </div>
-        }
-        {techFilterButtons.length > 0 &&
-          <div className="filterButtons">
-            <h4>Tech Filters</h4>
-            {techFilterButtons.map((button, index) => (
-              <div key={index}>{button}</div>
-            ))}
-          </div>
-        }
-        {toolFilterButtons.length > 0 &&
-          <div className="filterButtons">
-            <h4>Tool Filters</h4>
-            {toolFilterButtons.map((button, index) => (
-              <div key={index}>{button}</div>
-            ))}
-          </div>
-        }
-        {skillFilterButtons.length &&
-          <div className="filterButtons">
-            <h4>Skill Filters</h4>
-            {skillFilterButtons.map((button, index) => (
-              <div key={index}>{button}</div>
-            ))}
-          </div>
-        }
-      </div>
-
+        <FilterListComponent activeFilters={activeFilters} addActiveFilter={addActiveFilter} removeActiveFilter={removeActiveFilter} resetFilters={resetFilters} experiences={experiences} defaultFilter={defaultFilter}/>
       {experiences.length > 0 ?
         experiences.map((experience) => (
           <ExperienceComponent key={experience.id} {...experience} />
