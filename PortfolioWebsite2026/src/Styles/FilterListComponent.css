@@ -4,11 +4,20 @@
     top: 0px;
 }
 
-.FiltersButton {
+.filterButtonInactive {
     padding: 3px 5px 3px 5px;
-    background-color: var(--border);
+    background-color: var(--accent-bg);
     color: var(--text-h);
-    border: 2px solid var(--accent-bg);
+    border: 2px solid var(--border);
+    height: calc(var(--nav-height) + var(--nav-vertical-padding) * 2);
+    align-content: center;
+}
+
+.filterButtonActive {
+    padding: 3px 5px 3px 5px;
+    background-color: var(--accent);
+    color: var(--text-h);
+    border: 2px solid var(--border);
     height: calc(var(--nav-height) + var(--nav-vertical-padding) * 2);
     align-content: center;
 }
@@ -29,7 +38,7 @@
     max-width: 500px;
     border: 5px solid var(--accent-bg);
     justify-self: right;
-    top: calc(var(--nav-height) + var(--nav-vertical-padding) * 2);
+    top: calc(var(--nav-height) + var(--nav-vertical-padding) * 2 - 2px);
 }
 
 .popup-arrow{
