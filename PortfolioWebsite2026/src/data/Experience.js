@@ -39,6 +39,7 @@ const Experience = [
             "Collaborated closely with UI/UX designers to develop intuitive interfaces for custom tools in 3 different frameworks and used by 5 different teams.",
             "Led a mission-critical initiative to expand and improve asset creation pipelines, collaborating with users on multiple teams to gather requirements and build a technical design.",
             "Collaborated with a distributed team of designers, gameplay programmers, and testers to redesign data caching methods for over 10,000 project files.",
+            "Collaborated closely with QC to create test data and to design and execute tests for data caching redesigns affecting over 10,000 project files.",
             "Researched and developed technical plans for tool development in order to present leadership with a proposal that met all project and user requirements.",
             "Led user feedback sessions at each stage of tool development in order to ensure that the designs were meeting user requirements.",
             "Maintained custom asset creation pipelines that enabled design teams to produce hundreds of cosmetics for every 8-week season.",
